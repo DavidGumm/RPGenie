@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <style>
+      html {
+        background: black;
+        color: whitesmoke;
+      }
+    </style>
+    <link
+      href="https://unpkg.com/tabulator-tables@4.5.3/dist/css/tabulator.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/tabulator-tables@4.5.3/dist/js/tabulator.min.js"
+    ></script>
+    <script src="lib/seedrandom/seedrandom.min.js"></script>
+    <script src="main.js"></script>
+    <div class="table"></div>
+    <script>
+      const world = new RPGenie("hello world");
+
+      let Buildings = [];
+      for (let index = 0; index < 60; index++) {
+        Buildings.push(BuildingBuild());
+      }
+
+      var table = new Tabulator(".table", {
+        data: Buildings,
+        autoColumns: true
+      });
+    </script>
+  </head>
+  <body></body>
+</html>
