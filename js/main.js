@@ -88,3 +88,5 @@ const RPGenie = function (seed) {
     return building;
   };
 };
+
+console.log('Htest');
