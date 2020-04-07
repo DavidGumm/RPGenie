@@ -89,4 +89,4 @@ const RPGenie = function (seed) {
   };
 };
 
-console.log('Htest');
+console.log('test');
