@@ -16,19 +16,35 @@
     ></script>
     <script src="lib/seedrandom/seedrandom.min.js"></script>
     <script src="js/main.js"></script>
+
+    <input id="count" type="number" value="60"></input>
+    <input id="seed" value="hello world"></input>
+    <button onclick="generate()" >Generate</button>
+
     <div class="table"></div>
     <script>
-      const world = new RPGenie("hello world");
-
+      const seed = document.querySelector("#seed");
+      const count = document.querySelector("#count");
       let Buildings = [];
-      for (let index = 0; index < 60; index++) {
-        Buildings.push(BuildingBuild());
-      }
+      
+      let world = new RPGenie(seed.value);
 
       var table = new Tabulator(".table", {
-        data: Buildings,
-        autoColumns: true
-      });
+          data: Buildings,
+          autoColumns: true
+        });
+
+      function generate() {
+        world = new RPGenie(seed.value);
+        var total = parseInt(count.value);
+        Buildings = [];
+        for (let index = 0; index < total; index++) {
+          Buildings.push(BuildingBuild());
+        }
+        table.setData(Buildings);
+      }
+      
+      generate();
     </script>
   </head>
   <body></body>

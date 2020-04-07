@@ -1,10 +1,10 @@
-const RPGenie = function(seed) {
+const RPGenie = function (seed) {
   RPGenie.prototype.seed = new Math.seedrandom(seed);
 };
 
 Item = () => {};
 
-Building = function() {
+Building = function () {
   return { Item: null };
 };
 Type = () => {
@@ -18,11 +18,11 @@ Type = () => {
     "Home",
     "Home",
     "Home",
-    "Home"
+    "Home",
   ];
   return types[RandomBetween(types.length)];
 };
-Subtype = building => {
+Subtype = (building) => {
   let subtype = [];
   switch (building.Type) {
     case "Home":
@@ -46,7 +46,7 @@ Subtype = building => {
         "Poor",
         "Poor",
         "Poor",
-        "Poor"
+        "Poor",
       ];
       break;
     case "Organizational":
@@ -61,7 +61,7 @@ Subtype = building => {
         "Blacksmith",
         "General Goods",
         "Magic",
-        "Tech Shop"
+        "Tech Shop",
       ];
       break;
     default:
@@ -83,6 +83,6 @@ BuildingBuild = () => {
   return building;
 };
 
-const RandomBetween = function(max) {
+const RandomBetween = function (max) {
   return Math.floor(world.seed() * Math.floor(max));
 };
