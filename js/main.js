@@ -79,7 +79,7 @@ const Owner = () => {};
 const Description = () => {};
 const Name = () => {};
 
-const BuildingBuild = () => {
+const RPGenie.prototype.BuildingBuild = () => {
   var building = new Building();
   building.Type = this.Type();
   building.Subtype = this.Subtype(building);
