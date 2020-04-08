@@ -1,0 +1,16 @@
+{
+    "Title":  "City Landscape",
+    "Description":  null,
+    "Items":  [
+                  "A river runs along the [Village Coastline Location] of the settlement, and a [Village Landscape Feature] stands on the opposite shore.",
+                  "[City Maps With Rivers]",
+                  "A coastline sits aside the [Village Coastline Location], with the docks of a bustling wharf jutting out into it.",
+                  "[City Maps With Coasts]",
+                  "A river runs right through the settlement, carrying commerce directly within.",
+                  "[City Maps With Center Rivers]",
+                  "A [Village Landscape Feature] stands just outside the city proper, off to the [Village Coastline Location] of the settlement.",
+                  "[City Maps]",
+                  "Being that the settlement has no visible water source such as a river or lake, it must be supplied by a series of deep wells.",
+                  "[City Maps]"
+              ]
+}

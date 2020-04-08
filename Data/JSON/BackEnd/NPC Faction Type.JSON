@@ -1,0 +1,20 @@
+{
+    "Title":  "NPC Faction Type",
+    "Description":  null,
+    "Items":  [
+                  "Mystery Cult",
+                  "\u003cp\u003e-\u003c/p\u003eCULT: [NPC Mystery Cult]",
+                  "Slavers or brutal overlords",
+                  null,
+                  "Religious warriors or clerics",
+                  null,
+                  "Law and Justice officers or warriors",
+                  null,
+                  "Corrupt mercenaries or rogues",
+                  null,
+                  "[City Guilds] guild",
+                  null,
+                  "Cabal of mages",
+                  null
+              ]
+}

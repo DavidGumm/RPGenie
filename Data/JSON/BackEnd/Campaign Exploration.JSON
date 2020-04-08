@@ -1,0 +1,14 @@
+{
+    "Title":  "Campaign Exploration",
+    "Description":  null,
+    "Items":  [
+                  "city",
+                  "[Exploration City Plot]",
+                  "village",
+                  "[Exploration Village Plot]",
+                  "wilderness",
+                  "[Exploration Wilderness Plot]",
+                  "travel",
+                  "[Exploration Travel Plot]"
+              ]
+}

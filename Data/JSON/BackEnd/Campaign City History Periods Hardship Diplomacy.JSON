@@ -1,0 +1,32 @@
+{
+    "Title":  "Campaign City History Periods Hardship Diplomacy",
+    "Description":  null,
+    "Items":  [
+                  "Encounters with lost tribes result in a strange disease afflicting the kingdom. Many die before it runs its course.",
+                  null,
+                  "An evil artifact unleashes a terrible curse on the kingdom. +Curse",
+                  "As a result of this artifact, [City Curse]",
+                  "During expansion of the kingdom [Violent Race] are encountered who prey on the citizens. +Raiders",
+                  null,
+                  "A strange [Cults] takes quiet root within the kingdom. They are the enemy of the kingdom, and their secret symbol is a [Symbols]. They are led by [Shopkeeper Generator 2] and call themselves The [Secret Society Name Generator] +Enemy",
+                  null,
+                  "A strange omen is seen or witnessed that bodes ill for the kingdom. +Curse",
+                  "As a result of this omen, [City Curse]",
+                  "A corrupt official is revealed to have been working for a foreign power.",
+                  null,
+                  "A notorious criminal wanted in the kingdom is given sanctuary by a neighbour, causing a tense (but not outright hostile) relationship with a nearby neighbour. +Tensions",
+                  null,
+                  "Following a publicised incident, the kingdom rulers enact laws that severely restrict certain members of society. +Persecuted",
+                  "As a result, [Privileged Race] characters have disadvantage when interacting with city officials or someone in a position of authority",
+                  "A person of importance within the kingdom suffers from madness or an affliction, straining relations with neighbours and causing many problems until he is removed from office.",
+                  null,
+                  "A cultural misunderstanding causes a tense (but not outright hostile) relationship with a nearby neighbour. +Tensions",
+                  null,
+                  "Relations break down with a foreign kingdom resulting in a war between the two. The kingdom [Is Or Is Not] the winner of the altercation. +Enemy",
+                  null,
+                  "A visiting diplomat from a neighbouring kingdom dies under mysterious circumstances, causing a tense (but not outright hostile) relationship with a nearby neighbour. +Tensions",
+                  null,
+                  "A strange new religion spreads through the kingdom causing widespread problems. The religion is propogated by a strange [Cults] who\u0027s secret symbol is a [Symbols]. They are led by [Shopkeeper Generator 2] and call themselves The [Secret Society Name Generator] +Enemy",
+                  null
+              ]
+}

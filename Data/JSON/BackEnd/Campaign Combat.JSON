@@ -1,0 +1,14 @@
+{
+    "Title":  "Campaign Combat",
+    "Description":  null,
+    "Items":  [
+                  "city",
+                  "[Combat City Plot]",
+                  "village",
+                  "[Combat Village Plot]",
+                  "wilderness",
+                  "[Combat Wilderness Plot]",
+                  "travel",
+                  "[Combat Travel Plot]"
+              ]
+}

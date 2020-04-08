@@ -1,0 +1,16 @@
+{
+    "Title":  "Entertainer Routine",
+    "Description":  "Entertainer Entertainer Routine Table",
+    "Items":  [
+                  "Actor",
+                  "Dancer",
+                  "Fire-eater",
+                  "jester",
+                  "juggler",
+                  "Instrumentalist",
+                  "Poet",
+                  "Singer",
+                  "Storyteller",
+                  "Tumbler"
+              ]
+}

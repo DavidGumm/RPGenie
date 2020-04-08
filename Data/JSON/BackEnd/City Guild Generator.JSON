@@ -1,0 +1,15 @@
+{
+    "Title":  "City Guild Generator",
+    "Description":  null,
+    "Items":  [
+                  "Adventurers Guild",
+                  "Alchemists Guild",
+                  "Assassins Guild",
+                  "Bankers Guild",
+                  "Fighters Guild",
+                  "Merchants Guild",
+                  "Performers Guild",
+                  "Stonemasons Guild",
+                  "Thieves Guild"
+              ]
+}

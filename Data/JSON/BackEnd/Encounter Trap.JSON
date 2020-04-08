@@ -1,0 +1,14 @@
+{
+    "Title":  "Encounter Trap",
+    "Description":  null,
+    "Items":  [
+                  "A Pit Trap! DC10 Dex check or [1d6] bludgeoning damage.",
+                  "A Pit Trap! DC15 Dex check or [1d8] bludgeoning damage, pit fall.",
+                  "A Pit Trap! DC20 Dex check or [1d12] bludgeoning damage, pit fall.",
+                  "Snared and hung high! [1d6] bludgeoning damage if cut loose without landing being factored in.",
+                  "Whole party snared by net, roll combat encounter.",
+                  "A cupcake lays in the middle of the road. If the party approaches, they trigger a pitfall into spikes. [3d6] piercing damage.",
+                  "A magic rune triggers, paralyzing party. Roll for a combat encounter.",
+                  "A door in the middle of the path. If opened, a Hobgoblin is on the other side and gets a surprise attack. If walked around, the Hobgoblin flees."
+              ]
+}

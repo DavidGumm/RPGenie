@@ -1,0 +1,16 @@
+{
+    "Title":  "Random Dungeon - Starting Area 2",
+    "Description":  "Random Dungeon table.",
+    "Items":  [
+                  "Square, 20 × 20 ft., passage on each wall, with one of them being the stairs the party just came down",
+                  "Square, 20 × 20 ft., door on two walls, passage in third wall, and the stairs the party just came down in the fourth",
+                  "Square, 40 × 40 ft., doors on three walls and the stairs the party just came down in the fourth wall",
+                  "Rectangle, 80 × 20 ft., with row of pillars down the middle, two passages leading from each long wall, a door on the far short wall, and the stairs the party just came down in the other short wall",
+                  "Rectangle, 20 × 40 ft., passage on each wall with the stairs the party just came down in one of them",
+                  "Circle, 40 ft. diameter, one passage at each cardinal direction with the stairs the party just came down in one of them",
+                  "Circle, 40 ft. diameter, one passage in each cardinal direction with the stairs the party just came down in one of them, well in middle of room (might lead down to lower level)",
+                  "Square, 20 × 20 ft., door on two walls, with the stairs the party just came down on another, and a secret door on fourth wall",
+                  "Passage, 10 ft. wide, T intersection",
+                  "Passage, 10 ft. wide, four-way intersection, with the stairs the party just came down being one of the four ways"
+              ]
+}

@@ -1,0 +1,7 @@
+{
+    "Title":  "13 - Dungeon Generator",
+    "Description":  "This will work to randomly lead you along a tomb or a mine - style of dungeon. The Starting Area leads to other generators for passages, doors, and chambers.\\n\\nFOR 5E D\u0026D ONLY",
+    "Items":  [
+                  "Dungeon Starting Area"
+              ]
+}

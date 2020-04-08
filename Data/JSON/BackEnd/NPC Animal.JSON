@@ -1,0 +1,14 @@
+{
+    "Title":  "NPC Animal",
+    "Description":  null,
+    "Items":  [
+                  "wolf",
+                  "bear",
+                  "crocodile",
+                  "rabbit",
+                  "wolverine",
+                  "moose",
+                  "badger",
+                  "fox"
+              ]
+}

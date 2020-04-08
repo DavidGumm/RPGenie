@@ -1,0 +1,20 @@
+{
+    "Title":  "NPC Minor Quest",
+    "Description":  null,
+    "Items":  [
+                  "Commune with avatar",
+                  null,
+                  "Map a location",
+                  null,
+                  "Deliver a message",
+                  null,
+                  "Recover a minor Treasure (U)",
+                  "\u003cp\u003e-\u003c/p\u003eTREASURE: [NPC Treasure Info]",
+                  "Deliver a package",
+                  null,
+                  "Destroy a minor monster/cleanse a tainted area",
+                  null,
+                  "Rediscover a local forgotten place",
+                  null
+              ]
+}

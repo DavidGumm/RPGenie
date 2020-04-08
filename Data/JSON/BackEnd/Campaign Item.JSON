@@ -1,0 +1,16 @@
+{
+    "Title":  "Campaign Item",
+    "Description":  null,
+    "Items":  [
+                  "magical sword",
+                  "golden idol",
+                  "sacred staff",
+                  "crown",
+                  "map",
+                  "magical gemstone",
+                  "document",
+                  "piece of evidence",
+                  "spellbook",
+                  "grimoire"
+              ]
+}

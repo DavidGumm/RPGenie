@@ -1,0 +1,20 @@
+{
+    "Title":  "NPC On The Run",
+    "Description":  null,
+    "Items":  [
+                  "Committed political crime",
+                  null,
+                  "Escaped from detention for crime",
+                  null,
+                  "Committed minor crime of theft, fraud or assualt",
+                  null,
+                  "Committed major crime of theft, murder or rape (or this can be substituted with anarchy)",
+                  null,
+                  "Committed religious crime",
+                  null,
+                  "Got tangled up with a Mystery Cult",
+                  "\u003cp\u003e-\u003c/p\u003eMYSTERY CULT: [NPC Mystery Cult]",
+                  "Unjustly accused",
+                  null
+              ]
+}

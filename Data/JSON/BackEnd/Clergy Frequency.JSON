@@ -1,0 +1,16 @@
+{
+    "Title":  "Clergy Frequency",
+    "Description":  null,
+    "Items":  [
+                  "once a week",
+                  "every day",
+                  "every night",
+                  "twice a week",
+                  "every other day",
+                  "three times a week",
+                  "twice a day",
+                  "three times a day",
+                  "twice a month",
+                  "at sunset each day"
+              ]
+}

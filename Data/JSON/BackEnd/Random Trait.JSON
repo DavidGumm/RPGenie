@@ -1,0 +1,19 @@
+{
+    "Title":  "Random Trait",
+    "Description":  null,
+    "Items":  [
+                  "Lanky",
+                  "Overweight",
+                  "Tall",
+                  "Short",
+                  "Muscular",
+                  "[Clothing]",
+                  "[Deformity]",
+                  "[Battle Scar]",
+                  "sporting a tattoo of a [Color] [Tattoo/Warpaint 2] on the [Limb 2]",
+                  "[Hair]",
+                  "[Supernatural Trait]",
+                  "[Class Levels]",
+                  "sporting a tattoo of [Deities No Links|4] on their [Limb 2]"
+              ]
+}
