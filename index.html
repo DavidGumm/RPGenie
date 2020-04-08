@@ -26,6 +26,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/js/tabulator.min.js" integrity="sha256-u2YCVBkzzkIuLh6bMHUmqv6uuuHLxGgc6XF+rCJUV5k=" crossorigin="anonymous"></script>
   <!-- <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.5.3/dist/js/tabulator.min.js"></script> -->
   <script src="lib/seedrandom/seedrandom.min.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/files.js"></script>
   <script src="js/main.js"></script>
   </head>
   <body>
@@ -48,6 +50,7 @@
     <script>
       const seed = document.querySelector("#seed");
       const count = document.querySelector("#count");
+
       let Buildings = [];
     
       let world = new RPGenie(seed.value);
