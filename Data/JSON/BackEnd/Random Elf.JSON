@@ -1,0 +1,24 @@
+{
+    "Title":  "Random Elf",
+    "Description":  null,
+    "Items":  [
+                  "That is a Wood Elf",
+                  "and is Male",
+                  "[Random Elf Male Name]",
+                  "That is a Wood Elf",
+                  "and is Female",
+                  "[Random Elf Female Name]",
+                  "That is a High Elf",
+                  "and is Male",
+                  "[Random Elf Male Name]",
+                  "That is a High Elf",
+                  "and is Female",
+                  "[Random Elf Female Name]",
+                  "That is a Drow Elf",
+                  "and is Male",
+                  "[Random Elf Male Name]",
+                  "That is a Drow Elf",
+                  "and is Female",
+                  "[Random Elf Female Name]"
+              ]
+}

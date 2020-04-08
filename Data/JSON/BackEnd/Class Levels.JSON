@@ -1,0 +1,30 @@
+{
+    "Title":  "Class Levels",
+    "Description":  null,
+    "Items":  [
+                  "a Cleric",
+                  "[Level Range]",
+                  "a Druid",
+                  "[Level Range]",
+                  "a Fighter",
+                  "[Level Range]",
+                  "a Monk",
+                  "[Level Range]",
+                  "a Paladin",
+                  "[Level Range]",
+                  "a Ranger",
+                  "[Level Range]",
+                  "a Rogue",
+                  "[Level Range]",
+                  "a Sorcerer",
+                  "[Level Range]",
+                  "a Warlock",
+                  "[Level Range]",
+                  "a Wizard",
+                  "[Level Range]",
+                  "a Barbarian",
+                  "[Level Range]",
+                  "a Bard",
+                  "[Level Range]"
+              ]
+}

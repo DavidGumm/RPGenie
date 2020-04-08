@@ -1,0 +1,26 @@
+{
+    "Title":  "Generator",
+    "Description":  "These are the quest nouns for the side quests table. The table is named as it is so the main generator link reads appropriately",
+    "Items":  [
+                  "an Heir",
+                  "a Blade",
+                  "a Monster",
+                  "a Relic",
+                  "some Texts",
+                  "a Tower",
+                  "a Monarch",
+                  "a Letter",
+                  "a Betrothed",
+                  "some Flowers",
+                  "a Competitor",
+                  "A Beast of the Wild",
+                  "a Treasure",
+                  "a Tree",
+                  "a Bird",
+                  "a Tomb",
+                  "a Stranger",
+                  "an Occultist",
+                  "a Child",
+                  "a Warrior"
+              ]
+}

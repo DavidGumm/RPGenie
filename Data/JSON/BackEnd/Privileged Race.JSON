@@ -1,0 +1,19 @@
+{
+    "Title":  "Privileged Race",
+    "Description":  null,
+    "Items":  [
+                  "Elf",
+                  "Dwarf",
+                  "Gnome",
+                  "Halfling",
+                  "Cleric",
+                  "Spellcaster",
+                  "Soldier",
+                  "Half-elf",
+                  "Goliath",
+                  "Tiefling",
+                  "Human",
+                  "Dragonborn",
+                  "Paladin"
+              ]
+}

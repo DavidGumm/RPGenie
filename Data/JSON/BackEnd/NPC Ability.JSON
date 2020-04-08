@@ -1,0 +1,12 @@
+{
+    "Title":  "NPC Ability",
+    "Description":  null,
+    "Items":  [
+                  "dexterity",
+                  "constitution",
+                  "wisdom",
+                  "intelligence",
+                  "strength",
+                  "charisma"
+              ]
+}

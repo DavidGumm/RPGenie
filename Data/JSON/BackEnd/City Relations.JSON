@@ -1,0 +1,16 @@
+{
+    "Title":  "City Relations",
+    "Description":  null,
+    "Items":  [
+                  "excellent. They are sometimes called \"The Sister Kingdoms.\"",
+                  "good. The diplomacy between the two kingdoms is strong.",
+                  "fair. The two kingdoms are amiable, though both keep an eye on each other.",
+                  "poor. The two kingdoms rarely trade due this, and on more than one occasion diplomacy has failed and open war seemed possible. It hasn\u0027t happened yet, however.",
+                  "terrible. These two kingdoms are bitter enemies, and have engaged in open war in the past. Everyone knows it\u0027s only a matter of time before it happens again.",
+                  "as good as they have ever been. That\u0027s not saying much, but at least they aren\u0027t killing each other anymore.",
+                  "friendly enough. Trade between these cities is important enough to them both to keep politics generally lighthearted.",
+                  "very strong. The nobility of both cities has intermarried, and are now bound by blood relation as well as ideals.",
+                  "not so good. Due to the extended political and civil tension, the roads between the two cities are rarely ever used and have fallen into disrepair. The same routes have become dangerous as a result, and are known to be rife with bandits and crime.",
+                  "abysmal. There have been failed assasination attempts by the nobility of both cities, and on more than one occasion it has resulted in open battle. Travelers from either city are barred from entering the other."
+              ]
+}

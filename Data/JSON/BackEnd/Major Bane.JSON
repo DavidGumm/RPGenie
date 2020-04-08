@@ -1,0 +1,27 @@
+{
+    "Title":  "Major Bane",
+    "Description":  null,
+    "Items":  [
+                  "Attempts to curse a PC with Bad luck (random penalties {disadvantage} to random die rolls) for 1 month or 10 combats",
+                  null,
+                  null,
+                  "Will attempt to release an outbreak of large plague or pestilence",
+                  null,
+                  null,
+                  "Will seek to ensure the PCs endure a large loss of monetary wealth",
+                  null,
+                  null,
+                  "Is going to see to it that many items of value will be lost or destroyed",
+                  null,
+                  null,
+                  "Will do something that damages many buildings or the land itself",
+                  null,
+                  null,
+                  "Will try to ensure many people will be killed",
+                  null,
+                  null,
+                  "Attracts the attention of an Enemy (Major or Minor) to the PCs",
+                  "\u003cp\u003e-\u003c/p\u003eMajor Enemy: [Major Enemy]",
+                  "\u003cp\u003e-\u003c/p\u003eMinor Enemy: [Minor Enemy]"
+              ]
+}

@@ -1,0 +1,19 @@
+{
+    "Title":  "Village Government Official",
+    "Description":  null,
+    "Items":  [
+                  "Secretary",
+                  "Magistrate",
+                  "Councilmember",
+                  "Constable",
+                  "Baron",
+                  "Elder",
+                  "Advisor",
+                  "Priest",
+                  "Lord Mayor",
+                  "Treasurer",
+                  "Watchmaster",
+                  "Governor",
+                  "Count"
+              ]
+}

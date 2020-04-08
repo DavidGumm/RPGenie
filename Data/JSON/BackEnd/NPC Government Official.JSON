@@ -1,0 +1,17 @@
+{
+    "Title":  "NPC Government Official",
+    "Description":  null,
+    "Items":  [
+                  "King",
+                  "Queen",
+                  "Princess",
+                  "Prince",
+                  "Duke",
+                  "Count",
+                  "Baron",
+                  "Duchess",
+                  "Mayor",
+                  "Governor",
+                  "Bishop"
+              ]
+}

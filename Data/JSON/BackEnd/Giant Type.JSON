@@ -1,0 +1,12 @@
+{
+    "Title":  "Giant Type",
+    "Description":  null,
+    "Items":  [
+                  "Hill",
+                  "Frost",
+                  "Fire",
+                  "Cloud",
+                  "Stone",
+                  "Storm"
+              ]
+}

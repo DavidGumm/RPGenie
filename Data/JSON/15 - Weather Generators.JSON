@@ -1,0 +1,8 @@
+{
+    "Title":  "15 - Weather Generators",
+    "Description":  "Add flavor to your scene. Give them WEATHER. \\n\\nThese templates have other nested templates that fit the narrative descriptions. In other words, if the narrative generated says the weather is mild today but there are stormclouds on the horizon, it will provide you a link to a template with worse weather for tomorrow, automatically!",
+    "Items":  [
+                  "Weather Generator",
+                  "Winter Weather Generator"
+              ]
+}

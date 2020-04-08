@@ -1,0 +1,13 @@
+{
+    "Title":  "NPC Political Event",
+    "Description":  null,
+    "Items":  [
+                  "Opposition gains control through a coup",
+                  "A downshift in the support of financial backers has driven prices way up",
+                  "A noble is accused of a terrible crime",
+                  "A marriage between noble houses has been announced, rumors of treachery persist",
+                  "A shift in the government\u0027s stance on taxes has been taken badly by the populace",
+                  "Corruption rumors abound, and evidence of murder and treachery is begin sought",
+                  "Powerful figure has been killed or exiled or worse"
+              ]
+}

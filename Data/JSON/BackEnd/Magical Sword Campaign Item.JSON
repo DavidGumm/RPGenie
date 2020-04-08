@@ -1,0 +1,18 @@
+{
+    "Title":  "Magical Sword Campaign Item",
+    "Description":  null,
+    "Items":  [
+                  "(The sword is sentient.)",
+                  "Sentient Magical Sword Persona",
+                  "(The sword is covered in strange runes.)",
+                  null,
+                  "(The sword is also an hierloom of the royal family, who is searching for it as well.)",
+                  null,
+                  "(The sword vibrates violently when it comes into contact with blood. Dex DC 15 to continue to hold it.)",
+                  null,
+                  "(The sword itself contains [1d6+1] charges of blood magic! It is the absolute KEY to learning how it works. Using the charges is impossible without knowledge of how. The party is unaware of this fact unless they cast detect magic or some other similar method.)",
+                  null,
+                  "(\"No Rest For The Wicked\" : The sword is cursed! Anyone who touches it\u0027s hilt will no longer regain hit points from long or short rests. This curse is not apparent until it\u0027s effect manifests and the cursed individual seems to gain no rest anymore...)",
+                  null
+              ]
+}

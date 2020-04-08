@@ -1,0 +1,16 @@
+{
+    "Title":  "Random Dungeon - Door Type 2",
+    "Description":  "Random Dungeon table.",
+    "Items":  [
+                  "Wooden",
+                  "Wooden, barred or locked",
+                  "Stone",
+                  "Stone, barred or locked",
+                  "Iron",
+                  "Iron, barred or locked",
+                  "Portcullis",
+                  "Portcullis, locked in place",
+                  "Secret door",
+                  "Secret door, barred or locked"
+              ]
+}

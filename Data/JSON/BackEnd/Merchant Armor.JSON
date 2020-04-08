@@ -1,0 +1,19 @@
+{
+    "Title":  "Merchant Armor",
+    "Description":  null,
+    "Items":  [
+                  "Leather",
+                  "Padded",
+                  "Studded Leather",
+                  "Hide",
+                  "Chain Shirt",
+                  "Breastplate",
+                  "Scale Mail",
+                  "Half Plate",
+                  "Ring Mail",
+                  "Chain Mail",
+                  "Splint",
+                  "Plate",
+                  "Shield"
+              ]
+}

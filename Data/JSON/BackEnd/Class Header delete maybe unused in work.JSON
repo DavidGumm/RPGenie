@@ -1,0 +1,30 @@
+{
+    "Title":  "Class Header delete maybe unused in work",
+    "Description":  "A subtable of the Character Generator table, this table will determine character\u0027s base class.",
+    "Items":  [
+                  "A Barbarian",
+                  "Barbarian Reference Link",
+                  "\u003ch\u003eA Bard\u003c/h\u003e\u003cp\u003eBard Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Cleric\u003c/h\u003e\u003cp\u003eCleric Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Druid\u003c/h\u003e\u003cp\u003eDruid Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Fighter\u003c/h\u003e\u003cp\u003eFighter Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Monk\u003c/h\u003e\u003cp\u003eMonk Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Paladin\u003c/h\u003e\u003cp\u003ePaladin Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Ranger\u003c/h\u003e\u003cp\u003eRanger Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Rogue\u003c/h\u003e\u003cp\u003eRogue Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Sorcerer\u003c/h\u003e\u003cp\u003eSorcerer Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Warlock\u003c/h\u003e\u003cp\u003eWarlock Reference Link:\u003c/p\u003e",
+                  null,
+                  "\u003ch\u003eA Wizard\u003c/h\u003e\u003cp\u003eWizard Reference Link:\u003c/p\u003e",
+                  null
+              ]
+}
