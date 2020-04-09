@@ -1,90 +1,127 @@
 const RPGenie = function (seed) {
   RPGenie.prototype.seed = new Math.seedrandom(seed);
-};
 
-const RandomBetween = function (max) {
-  return Math.floor(this.seed() * Math.floor(max));
-};
+  RPGenie.prototype.RandomBetween = function (max) {
+    return Math.floor(this.seed() * Math.floor(max));
+  };
 
-const Item = () => {};
+  RPGenie.prototype.Item = () => {};
 
-const Building = function () {
-  return { Item: null };
-};
+  RPGenie.prototype.Building = function () {
+    return { Item: null };
+  };
 
-const Type = () => {
-  let types = [
-    "Organizational",
-    "Shop",
-    "Shop",
-    "Shop",
-    "Home",
-    "Home",
-    "Home",
-    "Home",
-    "Home",
-    "Home",
-  ];
-  return types[this.RandomBetween(types.length)];
-};
+  RPGenie.prototype.Type = () => {
+    let types = [
+      "Organizational",
+      "Shop",
+      "Shop",
+      "Shop",
+      "Home",
+      "Home",
+      "Home",
+      "Home",
+      "Home",
+      "Home",
+    ];
+    return types[this.RandomBetween(types.length)];
+  };
 
-const Subtype = (building) => {
-  let subtype = [];
-  switch (building.Type) {
-    case "Home":
-      subtype = [
-        "Rich",
-        "Middle",
-        "Middle",
-        "Middle",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-        "Poor",
-      ];
-      break;
-    case "Organizational":
-      subtype = ["Government", "Guild", "Religious"];
-      break;
-    case "Shop":
-      subtype = [
-        "Tavern",
-        "Restaurant",
-        "Inn",
-        "Brothel",
-        "Blacksmith",
-        "General Goods",
-        "Magic",
-        "Tech Shop",
-      ];
-      break;
-    default:
-      break;
-  }
-  return subtype[this.RandomBetween(subtype.length)];
-};
-const Owner = () => {};
-const Description = () => {};
-const Name = () => {};
+  RPGenie.prototype.Subtype = (building) => {
+    let subtype = [];
+    switch (building.Type) {
+      case "Home":
+        subtype = ["House"];
+        break;
+      case "Organizational":
+        subtype = ["Government", "Guild", "Religious"];
+        break;
+      case "Shop":
+        subtype = [
+          "Tavern",
+          "Restaurant",
+          "Inn",
+          "Brothel",
+          "Blacksmith",
+          "General Goods",
+          "Magic",
+          "Tech Shop",
+        ];
+        break;
+      default:
+        break;
+    }
+    building.subtype = subtype[this.RandomBetween(subtype.length)];
+    return building;
+  };
+  RPGenie.prototype.Owner = (building) => {
+    building.Owner = "";
+    return building;
+  };
+  RPGenie.prototype.Description = (building) => {
+    building.Description = "";
+    return building;
+  };
+  RPGenie.prototype.Quality = (item) => {
+    let quality = [
+      "Rich",
+      "Middle",
+      "Middle",
+      "Middle",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+      "Poor",
+    ];
 
-const BuildingBuild = () => {
-  var building = new Building();
-  building.Type = this.Type();
-  building.Subtype = this.Subtype(building);
-  building.Owner = this.Owner(building);
-  building.Description = this.Description(building);
-  building.Name = this.Name(building);
-  return building;
+    item.Quality = quality[this.RandomBetween(quality.length)];
+    return item;
+  };
+  RPGenie.prototype.Name = (building) => {
+    let names = [];
+    switch (building.subtype) {
+      case "Brothel":
+        names = database.BrothelName.Items;
+        break;
+      case "Tavern":
+      case "Inn":
+      case "Restaurant":
+        names = database.TavernSeedyNames.Items;
+        break;
+      case "Guild":
+        names = database.GuildGenerator.Items;
+        break;
+      case "Religious":
+        names = database.ReligiousBuildingType.Items;
+        break;
+      default:
+        names = [""];
+        break;
+    }
+    building.name = names[this.RandomBetween(names.length)];
+    return building;
+  };
+
+  RPGenie.prototype.BuildingBuild = () => {
+    var building = new this.Building();
+    building.Type = this.Type();
+    building = this.Quality(building);
+    building = this.Subtype(building);
+    building = this.Owner(building);
+    building = this.Name(building);
+    building = this.Description(building);
+    return building;
+  };
 };
