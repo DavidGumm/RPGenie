@@ -1,15 +1,17 @@
 {
-    "Title":  "11 - Guild Generator",
-    "Description":  "These will give you a complete guild. It will generate a headquarters building, what this guild might be known for aside from it\u0027s main focus, a very detailed guildmaster, several notable members, and guild news and rumors.",
-    "Items":  [
-                  "Adventurers Guild",
-                  "Alchemists Guild",
-                  "Assassins Guild",
-                  "Bankers Guild",
-                  "Fighters Guild",
-                  "Merchants Guild",
-                  "Performers Guild",
-                  "Stonemasons Guild",
-                  "Thieves Guild"
-              ]
+    "GuildGenerator":  {
+                           "Title":  "11 - Guild Generator",
+                           "Description":  "These will give you a complete guild. It will generate a headquarters building, what this guild might be known for aside from it\u0027s main focus, a very detailed guildmaster, several notable members, and guild news and rumors.",
+                           "Items":  [
+                                         "Adventurers Guild",
+                                         "Alchemists Guild",
+                                         "Assassins Guild",
+                                         "Bankers Guild",
+                                         "Fighters Guild",
+                                         "Merchants Guild",
+                                         "Performers Guild",
+                                         "Stonemasons Guild",
+                                         "Thieves Guild"
+                                     ]
+                       }
 }

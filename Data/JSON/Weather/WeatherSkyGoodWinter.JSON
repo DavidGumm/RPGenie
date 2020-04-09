@@ -1,0 +1,19 @@
+{
+    "WeatherSkyGoodWinter":  {
+                                 "Title":  "Weather Sky Good Winter",
+                                 "Description":  null,
+                                 "Items":  [
+                                               "The sky is crystal clear and blue today",
+                                               "The blue Sky is dotted with picturesque puffy clouds today",
+                                               "Today the sun shines warmer than usual with large lumbering clouds providing occasional shade",
+                                               "Tiny, far away clouds punctuate the vast shining sea of blue in the sky today",
+                                               "The heavens seem to smile on the realm below today every time the warm sun pokes through the cloud cover",
+                                               "It\u0027s all pleasant skies today",
+                                               "It\u0027s all sunshine and blue skies today",
+                                               "An occasional meandering cloud crosses the bright blue sky today",
+                                               "There are crystal clear skies today",
+                                               "Mostly sunny today, with thin, wispy clouds high in the heavens",
+                                               "Beautiful weather today has the sun shining brightly"
+                                           ]
+                             }
+}

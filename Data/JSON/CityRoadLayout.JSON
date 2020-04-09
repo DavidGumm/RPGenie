@@ -1,0 +1,21 @@
+{
+    "CityRoadLayout":  {
+                           "Title":  "City Road Layout",
+                           "Description":  null,
+                           "Items":  [
+                                         "well planned out, easy to navigate",
+                                         "poorly marked",
+                                         "terribly planned (if they were even planned at all), making it very easy for an outsider to get lost. The roads are curvy",
+                                         "arranged in concentric circles with a cross through them like a giant crosshair symbol. They are visibly marked",
+                                         "rarely marked, laid out in a confusing manner,",
+                                         "designed around a well-thought-out grid system",
+                                         "confusingly arranged",
+                                         "plagued by unnecessary twists and turns",
+                                         "simple",
+                                         "well marked",
+                                         "a complete mess from a design standpoint",
+                                         "thoughtfully arranged",
+                                         "easy enough to navigate"
+                                     ]
+                       }
+}

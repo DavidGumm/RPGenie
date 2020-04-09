@@ -1,0 +1,18 @@
+{
+    "RandomDragonbornF":  {
+                              "Title":  "Random Dragonborn F",
+                              "Description":  null,
+                              "Items":  [
+                                            "White Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Red Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Black Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Blue Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Green Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Golden Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Silver Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Brass Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Bronze Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                            "Copper Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]"
+                                        ]
+                          }
+}

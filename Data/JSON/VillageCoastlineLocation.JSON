@@ -1,0 +1,13 @@
+{
+    "VillageCoastlineLocation":  {
+                                     "Title":  "Village Coastline Location",
+                                     "Description":  null,
+                                     "Items":  [
+                                                   "far side",
+                                                   "eastern quadrant",
+                                                   "northern face",
+                                                   "southern edge",
+                                                   "west side"
+                                               ]
+                                 }
+}

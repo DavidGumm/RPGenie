@@ -1,0 +1,17 @@
+{
+    "CityGuilds":  {
+                       "Title":  "City Guilds",
+                       "Description":  null,
+                       "Items":  [
+                                     "Thieves",
+                                     "Stonemasons",
+                                     "Assassins",
+                                     "Bankers",
+                                     "Fighters",
+                                     "Merchants",
+                                     "Performers",
+                                     "Alchemists",
+                                     "Adventurers"
+                                 ]
+                   }
+}

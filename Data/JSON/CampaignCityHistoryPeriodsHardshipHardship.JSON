@@ -1,0 +1,34 @@
+{
+    "CampaignCityHistoryPeriodsHardshipHardship":  {
+                                                       "Title":  "Campaign City History Periods Hardship Hardship",
+                                                       "Description":  null,
+                                                       "Items":  [
+                                                                     "The people revolt and overthrow the government installing new rulers in the kingdom.",
+                                                                     null,
+                                                                     "Bandits from areas outside the kingdom begin a period of raiding, stealing people and resources. This enemy stems from [Enemies] who call themselves The [Secret Society Name Generator 4]. They are led by [Shopkeeper Generator 2] +Enemy",
+                                                                     null,
+                                                                     "A neighbouring kingdom declares war. The kingdom [Is Or Is Not] the winner of the altercation. +Enemy",
+                                                                     null,
+                                                                     "Indigenous people object to the expansion of the kingdom and rebel. The roads outside city walls are never safe as a result, and travelers ussually hire guards to accompany them. +Enemy",
+                                                                     null,
+                                                                     "[Campaign Cults and Religious Groups] takes control of the kingdom in a violent coup. They call themselves The [Secret Society Name Generator] +Religion",
+                                                                     "[Religion Boost Result]",
+                                                                     "[Violent Race] plague the kingdom. +Enemy",
+                                                                     null,
+                                                                     "A plague strikes the kingdom, killing many.",
+                                                                     null,
+                                                                     "Crops fail and a famine grips the kingdom.",
+                                                                     null,
+                                                                     "A sickness spreads amongst livestock, resulting in widespread starvation.",
+                                                                     null,
+                                                                     "A flood destroys much of the kingdom necessitating slow rebuilding.",
+                                                                     null,
+                                                                     "The government raises taxes to a point that many are reduced to poverty and stealing to survive. As a result, rebels and revolutionaries seek the overthrow of the current government +Enemy",
+                                                                     null,
+                                                                     "[Diminished Magic Reason] +Diminished Magic",
+                                                                     "As a result, [Magic Type] spells cast within kingdom boundaries will be cast with disadvantage.",
+                                                                     "The ruler of the kingdom dies without a clear successor and a period of internal strife follows.",
+                                                                     null
+                                                                 ]
+                                                   }
+}

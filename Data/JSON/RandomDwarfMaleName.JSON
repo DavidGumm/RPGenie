@@ -1,0 +1,14 @@
+{
+    "RandomDwarfMaleName":  {
+                                "Title":  "Random Dwarf Male Name",
+                                "Description":  null,
+                                "Items":  [
+                                              "His name is Baern Bronzeheart",
+                                              "His name is Thirvar Thunderspear",
+                                              "His name is Barak Redleg",
+                                              "His name is Azar Graybeard",
+                                              "His name is Balgrut Oakstaff",
+                                              "His name is Dorn Shalecrusher"
+                                          ]
+                            }
+}

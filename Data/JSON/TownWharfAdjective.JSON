@@ -1,0 +1,14 @@
+{
+    "TownWharfAdjective":  {
+                               "Title":  "Town Wharf Adjective",
+                               "Description":  null,
+                               "Items":  [
+                                             "meager",
+                                             "busy",
+                                             "bustling",
+                                             "ramshackle",
+                                             "lazy",
+                                             "vacant"
+                                         ]
+                           }
+}

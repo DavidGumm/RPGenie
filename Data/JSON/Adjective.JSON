@@ -1,0 +1,28 @@
+{
+    "Adjective":  {
+                      "Title":  "Adjective",
+                      "Description":  null,
+                      "Items":  [
+                                    "impressive",
+                                    "grand",
+                                    "striking",
+                                    "superb",
+                                    "stately",
+                                    "ordinary",
+                                    "common",
+                                    "typical",
+                                    "traditional",
+                                    "simple",
+                                    "shabby",
+                                    "aging",
+                                    "dilapidated",
+                                    "decrepit",
+                                    "rickety",
+                                    "battered",
+                                    "worn out",
+                                    "worn",
+                                    "faded",
+                                    "beat-up"
+                                ]
+                  }
+}

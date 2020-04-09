@@ -1,0 +1,11 @@
+{
+    "RandomElfF":  {
+                       "Title":  "Random Elf F",
+                       "Description":  null,
+                       "Items":  [
+                                     "Drow named [Elven First Name, Pt I][Elven First Name, Pt II] [Elven Family Name, Pt I][Elven Family Name, Pt II]",
+                                     "High Elf named [Elven Female First Names] [Elven Family Names]",
+                                     "Wood Elf named [Elven Female First Names] [Elven Family Names]"
+                                 ]
+                   }
+}

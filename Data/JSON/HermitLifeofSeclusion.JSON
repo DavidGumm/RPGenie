@@ -1,0 +1,16 @@
+{
+    "HermitLifeofSeclusion":  {
+                                  "Title":  "Hermit Life of Seclusion",
+                                  "Description":  "Hermit Life of Seclusion Table",
+                                  "Items":  [
+                                                "I was searching for spiritual enlightenment.",
+                                                "I was partaking of communal living in accordance with the dictates of a religious order.",
+                                                "I was exiled for a crime I didn\u0027t commit.",
+                                                "I retreated from society after a life-altering event.",
+                                                "I needed a quiet place to work on my art, literature, music, or manifesto.",
+                                                "I needed to commune with nature, far from civilization.",
+                                                "I was the caretaker of an ancient ruin or relic.",
+                                                "I was a pilgrim in search of a person, place, or relic of spiritual significance."
+                                            ]
+                              }
+}

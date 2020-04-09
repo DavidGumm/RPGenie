@@ -1,0 +1,34 @@
+{
+    "GuildNotableTraits":  {
+                               "Title":  "Guild Notable Traits",
+                               "Description":  "Notable Traits table.",
+                               "Items":  [
+                                             "greedy Guildmaster",
+                                             "angry Guildmaster",
+                                             "friendly Guildmaster",
+                                             "idiot of a Guildmaster",
+                                             "racist Guildmaster",
+                                             "dimwitted Guildmaster",
+                                             "intimidating Guildmaster",
+                                             "powerful Guildmaster",
+                                             "crazy Guildmaster",
+                                             "promiscuous Guildmaster",
+                                             "tricky Guildmaster",
+                                             "sly Guildmaster",
+                                             "fun-loving Guildmaster",
+                                             "eccentric Guildmaster",
+                                             "deadly Guildmaster",
+                                             "sinister Guildmaster",
+                                             "clueless Guildmaster",
+                                             "honest Guildmaster",
+                                             "helpful Guildmaster",
+                                             "generous Guildmaster",
+                                             "heroic Guildmaster",
+                                             "attractive Guildmaster",
+                                             "welcoming Guildmaster",
+                                             "wealthy Guildmaster",
+                                             "militaristic Guildmaster",
+                                             "alcoholic Guildmaster"
+                                         ]
+                           }
+}

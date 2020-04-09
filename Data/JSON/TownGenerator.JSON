@@ -1,9 +1,11 @@
 {
-    "Title":  "03 - Town Generator",
-    "Description":  "Creates a whole large town for you, complete with history, a map that matches the generated landscape narrative, an entire government, town secrets and drama, areas of interest with generator links, and even useless citizens!",
-    "Items":  [
-                  "Large Human Town",
-                  "Large Elven Town",
-                  "Large Dwarven Town"
-              ]
+    "TownGenerator":  {
+                          "Title":  "03 - Town Generator",
+                          "Description":  "Creates a whole large town for you, complete with history, a map that matches the generated landscape narrative, an entire government, town secrets and drama, areas of interest with generator links, and even useless citizens!",
+                          "Items":  [
+                                        "Large Human Town",
+                                        "Large Elven Town",
+                                        "Large Dwarven Town"
+                                    ]
+                      }
 }

@@ -1,0 +1,12 @@
+{
+    "RandomHalfOrc":  {
+                          "Title":  "Random Half-Orc",
+                          "Description":  null,
+                          "Items":  [
+                                        "that is male",
+                                        "[Random Half-Orc Male Name]",
+                                        "that is female",
+                                        "[Random Half-Orc Female Name]"
+                                    ]
+                      }
+}

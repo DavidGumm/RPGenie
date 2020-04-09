@@ -1,0 +1,33 @@
+{
+    "Title":  "Tattoo/Warpaint 2",
+    "Description":  null,
+    "Items":  [
+                  "wolf",
+                  "dragon",
+                  "raven",
+                  "eagle",
+                  "lion",
+                  "flame",
+                  "lightning Bolt",
+                  "tree and vine",
+                  "fist",
+                  "sword",
+                  "shield",
+                  "helmet",
+                  "naked gnome",
+                  "naked elf",
+                  "naked orc",
+                  "naked human",
+                  "naked dwarf",
+                  "naked tiefling",
+                  "naked halfling",
+                  "dead man",
+                  "skull",
+                  "spider",
+                  "tentacle",
+                  "severed head",
+                  "keyhole",
+                  "treasure map",
+                  "star"
+              ]
+}

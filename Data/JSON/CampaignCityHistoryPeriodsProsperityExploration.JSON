@@ -1,0 +1,34 @@
+{
+    "CampaignCityHistoryPeriodsProsperityExploration":  {
+                                                            "Title":  "Campaign City History Periods Prosperity Exploration",
+                                                            "Description":  null,
+                                                            "Items":  [
+                                                                          "Peaceful trade agreements are reached with a neighbouring kingdom, bringing wealth and natural resources. +Trade",
+                                                                          "This resulted in strong trade ties with some of it\u0027s neighbours. All common items are available, as are a lot of rarer items. The kingdom has several large marketplaces and is constantly visited by traders from other nations. If you can?t find something available for purchase in this kingdom, then it is not worth buying.",
+                                                                          "Kingdom acquires new technology from a neighbour.",
+                                                                          null,
+                                                                          "New ideas acquired via peaceful contact with neighbours result in an increase of academic pursuits.",
+                                                                          null,
+                                                                          "A religious omen results in an upsurge of [Campaign Cults and Religious Groups]. They call themselves The [Secret Society Name Generator]. +Religion",
+                                                                          "[Religion Boost Result]",
+                                                                          "[Boosted Magic Reason] +Boosted Magic",
+                                                                          "As a result, [Magic Type] spells cast within kingdom boundaries will be cast with advantage.",
+                                                                          "A political marriage brings the kingdom closer to one of its neighbours. +Ally",
+                                                                          null,
+                                                                          "The bones of an ancient creature are discovered and many secrets are unlocked from its corpse.",
+                                                                          "The bones were found in [City Adventure Area]",
+                                                                          "A shrine to a forgotten deity is discovered.",
+                                                                          "It is discovered in [City Adventure Area]",
+                                                                          "Catacombs and natural caves are discovered underneath the kingdom. They are full of strange creatures and potential fortunes to be made. No one knows yet, but this cave system eventually connects with the Underdark. +Underdark",
+                                                                          null,
+                                                                          "Ancient relics of an almost forgotten past are discovered.",
+                                                                          "They were discovered in [City Adventure Area]",
+                                                                          "The kingdom discovers a lost land or civilisation and claims it as a protectorate. +Tribute State",
+                                                                          "As a result, the kingdom now has another kingdom that pays money or goods as tribute to it. This kingdom is [Campaign City Names 9], [Campaign City Names 10]. [Tribute State Relations]",
+                                                                          "A [City Guilds] Guild house is founded in the kingdom.",
+                                                                          "They regularly conduct \"operations\" in [City Adventure Area]",
+                                                                          "A lost heir to the kingdom is discovered and becomes the new ruler",
+                                                                          null
+                                                                      ]
+                                                        }
+}

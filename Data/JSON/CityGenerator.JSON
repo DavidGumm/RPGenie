@@ -1,7 +1,9 @@
 {
-    "Title":  "02 - City Generator",
-    "Description":  "Creates a whole city for you, complete with history, an entire royal family, royal court, street names with travel descriptions around town, and even maps.",
-    "Items":  [
-                  "City Generator"
-              ]
+    "CityGenerator":  {
+                          "Title":  "02 - City Generator",
+                          "Description":  "Creates a whole city for you, complete with history, an entire royal family, royal court, street names with travel descriptions around town, and even maps.",
+                          "Items":  [
+                                        "City Generator"
+                                    ]
+                      }
 }

@@ -1,9 +1,11 @@
 {
-    "Title":  "04 - Village Generator",
-    "Description":  "Creates a small village for you, complete with history, a map that matches the generated landscape narrative, an entire government, small town secrets and drama, areas of interest with generator links, and even useless citizens!",
-    "Items":  [
-                  "Dwarven Village",
-                  "Human Village",
-                  "Elven Village"
-              ]
+    "VillageGenerator":  {
+                             "Title":  "04 - Village Generator",
+                             "Description":  "Creates a small village for you, complete with history, a map that matches the generated landscape narrative, an entire government, small town secrets and drama, areas of interest with generator links, and even useless citizens!",
+                             "Items":  [
+                                           "Dwarven Village",
+                                           "Human Village",
+                                           "Elven Village"
+                                       ]
+                         }
 }

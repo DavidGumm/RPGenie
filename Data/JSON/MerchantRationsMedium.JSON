@@ -1,0 +1,12 @@
+{
+    "MerchantRationsMedium":  {
+                                  "Title":  "Merchant Rations Medium",
+                                  "Description":  null,
+                                  "Items":  [
+                                                "No Rations Available",
+                                                null,
+                                                "[2d10+10]",
+                                                "Rations (1 Day)"
+                                            ]
+                              }
+}

@@ -1,0 +1,14 @@
+{
+    "RandomDragonborn":  {
+                             "Title":  "Random Dragonborn",
+                             "Description":  null,
+                             "Items":  [
+                                           "That is a [Random Dragonborn Color] Dragonborn",
+                                           "and is Male",
+                                           "[Random Dragonborn Male Name]",
+                                           "That is a [Random Dragonborn Color] Dragonborn",
+                                           "and is Female",
+                                           "[Random Dragonborn Female Name]"
+                                       ]
+                         }
+}

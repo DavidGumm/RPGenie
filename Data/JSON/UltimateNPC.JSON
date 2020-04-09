@@ -1,0 +1,10 @@
+{
+    "UltimateNPC":  {
+                        "Title":  "Ultimate NPC",
+                        "Description":  null,
+                        "Items":  [
+                                      "male [Race M]",
+                                      "female [Race F]"
+                                  ]
+                    }
+}

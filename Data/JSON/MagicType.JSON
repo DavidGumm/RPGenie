@@ -1,0 +1,16 @@
+{
+    "MagicType":  {
+                      "Title":  "Magic Type",
+                      "Description":  null,
+                      "Items":  [
+                                    "Abjuration",
+                                    "Conjuration",
+                                    "Divination",
+                                    "Enchantment",
+                                    "Evocation",
+                                    "Illusion",
+                                    "Necromancy",
+                                    "Transmutation"
+                                ]
+                  }
+}

@@ -1,0 +1,17 @@
+{
+    "CasualNPCGeneratorTESTMAYBEUSEWITHSTORYTEMPLATES":  {
+                                                             "Title":  "Casual NPC Generator TEST MAYBE USE WITH STORY TEMPLATES",
+                                                             "Description":  null,
+                                                             "Items":  [
+                                                                           "This is an NPC [Random Human]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Dwarf]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Halfling]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Elf]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Gnome]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Half-Breed]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Dragonborn]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Aasimar]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e",
+                                                                           "This is an NPC [Random Tiefling]\u003cp\u003e \u003c/p\u003e They are [Random Trait]\u003cp\u003e \u003c/p\u003e They are [Random Attitude] \u003cp\u003e\u003cu\u003eVoice cue:\u003c/u\u003e [Random Voice]\u003c/p\u003e"
+                                                                       ]
+                                                         }
+}

@@ -1,9 +1,0 @@
-{
-    "Title":  "Weather Today",
-    "Description":  null,
-    "Items":  [
-                  "[Bad Weather Tomorrow]",
-                  "[Medium Weather Tomorrow]",
-                  "[Good Weather Tomorrow]"
-              ]
-}

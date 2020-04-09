@@ -1,0 +1,28 @@
+{
+    "GuildArtisanGuildBusiness":  {
+                                      "Title":  "Guild Artisan Guild Business",
+                                      "Description":  "Guild Artisan Guild Business Table",
+                                      "Items":  [
+                                                    "Alchemists and apothecaries",
+                                                    "Armorers, locksmiths, and fine smiths",
+                                                    "Brewers, distillers, and vintners",
+                                                    "Calligraphers, scribes, and scriveners",
+                                                    "Carpenters, roofers, and plasterers",
+                                                    "Cartographers, surveyors, and chart-makers",
+                                                    "Cobblers and shoemakers",
+                                                    "Cooks and bakers",
+                                                    "Glassblowers and glaziers",
+                                                    "Jewelers and gem cutters",
+                                                    "Leatherworkers, skinners, and tanners",
+                                                    "Masons and stonecutters",
+                                                    "Painters, limners, and sign-makers",
+                                                    "Potters and tile-makers",
+                                                    "Shipwrights and sailmakers",
+                                                    "Smiths and metal-forgers",
+                                                    "Tinkers, pewterers, and casters",
+                                                    "Wagon-makers and wheelwrights",
+                                                    "Weavers and dyers",
+                                                    "Woodcarvers, coopers, and bowyers"
+                                                ]
+                                  }
+}

@@ -1,0 +1,16 @@
+{
+    "Artifact":  {
+                     "Title":  "Artifact",
+                     "Description":  null,
+                     "Items":  [
+                                   "Axe of the Dwarvish Lords",
+                                   "Book of Exalted Deeds",
+                                   "Book of Vile Darkness",
+                                   "Hand of Vecna",
+                                   "Eye of Vecna",
+                                   "Orb of Dragonkind",
+                                   "Sword of Kas",
+                                   "Wand of Orcus"
+                               ]
+                 }
+}

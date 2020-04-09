@@ -1,0 +1,20 @@
+{
+    "CampaignNPCClass":  {
+                             "Title":  "Campaign NPC Class",
+                             "Description":  "NPC Class table.",
+                             "Items":  [
+                                           "barbarians",
+                                           "bards",
+                                           "clerics",
+                                           "druids",
+                                           "fighters",
+                                           "monks",
+                                           "paladins",
+                                           "rangers",
+                                           "rogues",
+                                           "sorcerers",
+                                           "warlocks",
+                                           "wizards"
+                                       ]
+                         }
+}

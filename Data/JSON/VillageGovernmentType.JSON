@@ -1,0 +1,16 @@
+{
+    "VillageGovernmentType":  {
+                                  "Title":  "Village Government Type",
+                                  "Description":  null,
+                                  "Items":  [
+                                                "Theocracy, it is run by the Priests",
+                                                "Democracy, it is run by the Lord Mayor",
+                                                "subsidiary of the Monarchy, it is run by the Baron",
+                                                "Aristocracy, it is run by the Elders",
+                                                "Meritocracy, it is run by the Counsilmembers",
+                                                "Oligarchy, it is run by the Counsilmembers and Elders",
+                                                "Plutocracy, it is run by the Governor",
+                                                "subsidiary of the Monarchy, it is run by the Count"
+                                            ]
+                              }
+}

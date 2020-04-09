@@ -1,0 +1,28 @@
+{
+    "SideQuest":  {
+                      "Title":  "Side Quest",
+                      "Description":  "These are the quest verbs. The table is named as it is so the main generator link reads appropriately",
+                      "Items":  [
+                                    "Steal",
+                                    "Find",
+                                    "Mend",
+                                    "Destroy",
+                                    "Outwit",
+                                    "Protect",
+                                    "Hide",
+                                    "Understand",
+                                    "Bury",
+                                    "Defeat",
+                                    "Reach",
+                                    "Sabotage",
+                                    "Counterfeit",
+                                    "Collect",
+                                    "Expose",
+                                    "Reassemble",
+                                    "Enshrine",
+                                    "Pacify",
+                                    "Transport",
+                                    "Free"
+                                ]
+                  }
+}
