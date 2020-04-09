@@ -14,17 +14,26 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
   return arrayOfFiles;
 };
 
-const setDatabase = (data, tableName, tableData) => {
-  if (tableName > 0) {
-    data = data[tableName[0]];
-    data = setDatabase(data, tableName.shift().split(), tableData);
+const setDatabase = (data, tableName, tableData, depth) => {
+  if ((depth = 0)) {
+    return data;
+  }
+
+  if (tableName.length > 1) {
+    if (data[tableName[0]] == undefined) {
+      data[tableName[0]] = {};
+    }
+    --depth;
+    tableName.shift().split();
+    return setDatabase(data[tableName[0]], tableName, tableData, depth);
   } else {
     data[tableName[0]] = tableData;
+    return data;
   }
-  return data;
 };
 
 const result = getAllFiles("Data\\JSON");
+
 let database = {};
 
 result.forEach((fileName) => {
@@ -33,12 +42,12 @@ result.forEach((fileName) => {
     .replace(".JSON", "")
     .replace("\\", "/");
   let tableData = JSON.parse(
-    fs.readFileSync(fileName.replace("\\data\\Data\\", "\\Data\\"), {
+    fs.readFileSync(fileName.replace("\\Data\\Data\\", "\\Data\\"), {
       encoding: "utf-8",
     })
   );
 
-  database = setDatabase(database, tableName.split("/"), tableData);
+  database = setDatabase(database, tableName.split("/"), tableData, 5);
 });
 
 fs.writeFile("Data/database.json", JSON.stringify(database), (err) => {
@@ -46,7 +55,7 @@ fs.writeFile("Data/database.json", JSON.stringify(database), (err) => {
   console.log("Json file created.");
 });
 
-let databaseFile = `let database = {${JSON.stringify(database)}}`;
+let databaseFile = `let database = ${JSON.stringify(database)}`;
 
 fs.writeFile("js/database.js", databaseFile, (err) => {
   if (err) throw err;
