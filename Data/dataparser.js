@@ -14,50 +14,68 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
   return arrayOfFiles;
 };
 
-const setDatabase = (data, tableName, tableData, depth) => {
-  if ((depth = 0)) {
-    return data;
-  }
+const setDatabase = (data, tableName, tableData, depth, count) => {
+  if ((depth = 0)) return data;
+  if (data == undefined) data = {};
 
+  // if (Object.getOwnPropertyNames(data)[0] == undefined) {
+  //   data[currentTableName] = {};
+  // }
+  console.log(count);
+  console.log(tableName.toString());
+  --depth;
   if (tableName.length > 1) {
-    if (data[tableName[0]] == undefined) {
-      data[tableName[0]] = {};
-    }
-    --depth;
-    tableName.shift().split();
-    return setDatabase(data[tableName[0]], tableName, tableData, depth);
+    data[tableName[0]] = setDatabase(
+      data[tableName[0]],
+      tableName.shift(),
+      tableData,
+      depth,
+      count
+    );
   } else {
     data[tableName[0]] = tableData;
     return data;
   }
 };
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 const result = getAllFiles("Data\\JSON");
 
 let database = {};
+let count = 0;
 
 result.forEach((fileName) => {
+  ++count;
   let tableName = fileName
     .replace(`${__dirname}\\Data\\JSON\\`, "")
-    .replace(".JSON", "")
-    .replace("\\", "/");
+    .replace(".JSON", "");
   let tableData = JSON.parse(
     fs.readFileSync(fileName.replace("\\Data\\Data\\", "\\Data\\"), {
       encoding: "utf-8",
     })
   );
 
-  database = setDatabase(database, tableName.split("/"), tableData, 5);
+  database = setDatabase(database, tableName.split("\\"), tableData, -1, count);
 });
+let databaseFile = `let database = ${JSON.stringify(database)}`;
+database = JSON.stringify(database);
 
-fs.writeFile("Data/database.json", JSON.stringify(database), (err) => {
+console.log("\n");
+console.log(`Tables parsed: ${count}`);
+console.log(`Table size: ${numberWithCommas(database.length)} bytes`);
+console.log("writing database...");
+
+fs.writeFile("Data/database.json", database, (err) => {
   if (err) throw err;
+  console.log("\n");
   console.log("Json file created.");
 });
 
-let databaseFile = `let database = ${JSON.stringify(database)}`;
-
 fs.writeFile("js/database.js", databaseFile, (err) => {
   if (err) throw err;
+  console.log("\n");
   console.log("database object created.");
 });
