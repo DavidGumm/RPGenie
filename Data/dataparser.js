@@ -14,29 +14,32 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
   return arrayOfFiles;
 };
 
-const setDatabase = (data, tableName, tableData, depth, count) => {
-  if ((depth = 0)) return data;
-  if (data == undefined) data = {};
+//
+//
+//
+//
+//
 
-  // if (Object.getOwnPropertyNames(data)[0] == undefined) {
-  //   data[currentTableName] = {};
-  // }
-  console.log(count);
-  console.log(tableName.toString());
-  --depth;
-  if (tableName.length > 1) {
-    data[tableName[0]] = setDatabase(
-      data[tableName[0]],
-      tableName.shift(),
-      tableData,
-      depth,
-      count
-    );
+const setDatabase = (data, Name, subData, depth, count) => {
+  if (depth == 0) return data;
+
+  if (Name.length > 1) {
+    Name.shift();
+    if (data[Name[0]] === undefined) data[Name[0]] = {};
+    data[Name[0]] = setDatabase(data[Name[0]], Name, subData, --depth, count);
   } else {
-    data[tableName[0]] = tableData;
-    return data;
+    let tableName = Object.getOwnPropertyNames(subData)[0];
+    let tableData = subData[tableName];
+    data[tableName] = tableData;
   }
+  return data;
 };
+
+//
+//
+//
+//
+//
 
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -49,33 +52,38 @@ let count = 0;
 
 result.forEach((fileName) => {
   ++count;
+
   let tableName = fileName
     .replace(`${__dirname}\\Data\\JSON\\`, "")
     .replace(".JSON", "");
+  fileName = fileName.replace("\\Data\\Data\\", "\\Data\\");
+
   let tableData = JSON.parse(
-    fs.readFileSync(fileName.replace("\\Data\\Data\\", "\\Data\\"), {
+    fs.readFileSync(fileName, {
       encoding: "utf-8",
     })
   );
 
   database = setDatabase(database, tableName.split("\\"), tableData, -1, count);
 });
-let databaseFile = `let database = ${JSON.stringify(database)}`;
-database = JSON.stringify(database);
+let databaseString = JSON.stringify(database);
+let databaseFile = `let database = ${databaseString}`;
 
-console.log("\n");
-console.log(`Tables parsed: ${count}`);
-console.log(`Table size: ${numberWithCommas(database.length)} bytes`);
-console.log("writing database...");
+console.log(`
+  Tables parsed: ${count}
+  Tables Keys: ${Object.getOwnPropertyNames(database).length}
+  Table size: ${numberWithCommas(databaseString.length)} bytes
+  writing database...
+`);
 
-fs.writeFile("Data/database.json", database, (err) => {
+fs.writeFile("Data/database.json", databaseString, (err) => {
   if (err) throw err;
-  console.log("\n");
-  console.log("Json file created.");
+  console.log(`
+  Json file created.`);
 });
 
 fs.writeFile("js/database.js", databaseFile, (err) => {
   if (err) throw err;
-  console.log("\n");
-  console.log("database object created.");
+  console.log(`
+  database object created.`);
 });
