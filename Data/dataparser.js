@@ -6,7 +6,7 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
   arrayOfFiles = arrayOfFiles || [];
   files.forEach(function (file) {
     if (fs.statSync(dirPath + "/" + file).isDirectory()) {
-      arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles);
+      arrayOfFiles = new getAllFiles(dirPath + "/" + file, arrayOfFiles);
     } else {
       arrayOfFiles.push(path.join(__dirname, dirPath, "/", file));
     }
@@ -28,9 +28,7 @@ const setDatabase = (data, Name, subData, depth, count) => {
     if (data[Name[0]] === undefined) data[Name[0]] = {};
     data[Name[0]] = setDatabase(data[Name[0]], Name, subData, --depth, count);
   } else {
-    let tableName = Object.getOwnPropertyNames(subData)[0];
-    let tableData = subData[tableName];
-    data[tableName] = tableData;
+    data[Name[0]] = subData[Name[0]];
   }
   return data;
 };

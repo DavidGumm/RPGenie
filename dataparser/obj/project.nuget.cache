@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wBG80mLCos1rVVxdtQxG1q/PYmKMMnHDIZOZUprowm3dDxvO1GlfVkVFOtK5P+4BvnCcQ4AA1R5W9C72QyPB5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gummd\\source\\repos\\RPGenie\\dataparser\\dataparser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gummd\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

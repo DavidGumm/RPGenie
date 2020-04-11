@@ -1,0 +1,15 @@
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.csprojAssemblyReference.cache
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.csproj.CoreCompileInputs.cache
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.AssemblyInfoInputs.cache
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.AssemblyInfo.cs
+C:\Users\gummd\source\repos\RPGenie\dataparser\bin\Debug\netcoreapp3.1\dataparser.exe
+C:\Users\gummd\source\repos\RPGenie\dataparser\bin\Debug\netcoreapp3.1\dataparser.deps.json
+C:\Users\gummd\source\repos\RPGenie\dataparser\bin\Debug\netcoreapp3.1\dataparser.runtimeconfig.json
+C:\Users\gummd\source\repos\RPGenie\dataparser\bin\Debug\netcoreapp3.1\dataparser.runtimeconfig.dev.json
+C:\Users\gummd\source\repos\RPGenie\dataparser\bin\Debug\netcoreapp3.1\dataparser.dll
+C:\Users\gummd\source\repos\RPGenie\dataparser\bin\Debug\netcoreapp3.1\dataparser.pdb
+C:\Users\gummd\source\repos\RPGenie\dataparser\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.csproj.CopyComplete
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.dll
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.pdb
+C:\Users\gummd\source\repos\RPGenie\dataparser\obj\Debug\netcoreapp3.1\dataparser.genruntimeconfig.cache
