@@ -31,9 +31,6 @@
     <div class="table"></div>
     <script>
 
-      // let out = database.Acolyte;
-      // console.log(Object.getOwnPropertyNames(database))
-      // console.log(out);
       const seed = document.querySelector("#seed");
       const count = document.querySelector("#count");
 
@@ -41,21 +38,24 @@
     
       let world = new RPGenie(seed.value);
 
-      var table = new Tabulator(".table", {
-          data: Buildings,
-          autoColumns: true,
-          layout:"fitData",
-          groupBy:"Type",
-        });
+      // var table = new Tabulator(".table", {
+      //     autoColumns: true,
+      //     layout:"fitData",
+      //     groupBy:"Type",
+      //   });
 
       function generate() {
         world = new RPGenie(seed.value);
+        let city = world.CityBuild();
+        console.log(city.BuildingCount)
+        count.value = city.BuildingCount;
         var total = parseInt(count.value);
+
         Buildings = [];
         for (let index = 0; index < total; index++) {
           Buildings.push(world.BuildingBuild());
         }
-        table.setData(Buildings);
+        //table.setData(Buildings);
       }
       generate();
 

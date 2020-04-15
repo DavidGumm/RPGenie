@@ -5,6 +5,27 @@ const RPGenie = function (seed) {
     return Math.floor(this.seed() * Math.floor(max));
   };
 
+  const citySize = [
+    { Name: "Megalopolis", size: { min: 10000000, max: 0 } },
+    { Name: "Conurbation", size: { min: 3000000, max: 0 } },
+    { Name: "Metropolis", size: { min: 1000000, max: 0 } },
+    { Name: "Large city", size: { min: 300000, max: 0 } },
+    { Name: "Medium city", size: { min: 150000, max: 0 } },
+    { Name: "Small City", size: { min: 100000, max: 0 } },
+    { Name: "Large town", size: { min: 10000, max: 0 } },
+    { Name: "Town", size: { min: 150, max: 0 } },
+    { Name: "Village", size: { min: 50, max: 0 } },
+    { Name: "Hamlet", size: { min: 5, max: 0 } },
+    { Name: "Homestead", size: { min: 1, max: 0 } },
+  ];
+
+  RPGenie.prototype.City = function () {
+    this.Name = 0;
+    this.Size = 0;
+    this.BuildingCount = 0;
+    return this;
+  };
+
   RPGenie.prototype.Item = () => {};
 
   RPGenie.prototype.Building = function () {
@@ -91,7 +112,6 @@ const RPGenie = function (seed) {
   };
   RPGenie.prototype.Name = (building) => {
     let names = [];
-    console.log(building.subtype);
     switch (building.subtype) {
       case "Brothel":
         names = database[building.subtype].BrothelName.Items;
@@ -113,6 +133,27 @@ const RPGenie = function (seed) {
     }
     building.name = names[this.RandomBetween(names.length)];
     return building;
+  };
+
+  RPGenie.prototype.CityBuild = () => {
+    var city = new this.City();
+    //city.Name = this.City.Name(city);
+
+    let size = [];
+
+    let sizes = [];
+
+    for (let index = 1; index < citySize.length + 1; index++) {
+      sizes.push(Math.pow(index, 10));
+    }
+
+    for (let index = 0; index < 10000000; index++) {
+      const element = array[index];
+      size.push(citySize);
+    }
+
+    city.BuildingCount = size;
+    return city;
   };
 
   RPGenie.prototype.BuildingBuild = () => {
