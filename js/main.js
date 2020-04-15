@@ -1,23 +1,3 @@
-//1. randomize the size of the town with catagories
-// High Density
-// > 10,000,000 Megalopolis
-// 3,000,000 - 10,000,000 Conurbation
-// 1,000,000 - 3,000,000 Metropolis
-// Mid Density
-// 300,000 - 1,000,000 Large city
-// 150,000- 300,000 Medium city
-// 100,000 - 150,000 Small City
-// Low Density
-// 10,000 - 100,000 Large town
-// 150 -10,000 Town
-// Minuscule Density
-// 50 -150 Village
-// 5 - 50 Hamlet
-// 1 - 5 Homestead
-//2. make up of buildings in town/city (house/org/shop)
-//3. class of buildings in town/city (rich/poor/middle)
-//4. type of sub buiulding
-
 const RPGenie = function (seed) {
   RPGenie.prototype.seed = new Math.seedrandom(seed);
 
@@ -111,20 +91,21 @@ const RPGenie = function (seed) {
   };
   RPGenie.prototype.Name = (building) => {
     let names = [];
+    console.log(building.subtype);
     switch (building.subtype) {
       case "Brothel":
-        names = database.BrothelName.Items;
+        names = database[building.subtype].BrothelName.Items;
         break;
       case "Tavern":
       case "Inn":
       case "Restaurant":
-        names = database.TavernSeedyNames.Items;
+        names = database["Tavern"].TavernSeedyNames.Items;
         break;
       case "Guild":
-        names = database.GuildGenerator.Items;
+        names = database[building.subtype].GuildGenerator.Items;
         break;
       case "Religious":
-        names = database.ReligiousBuildingType.Items;
+        names = database["Religion"].ReligiousBuildingType.Items;
         break;
       default:
         names = [""];

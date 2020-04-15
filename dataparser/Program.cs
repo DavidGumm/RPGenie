@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json;
 using System.Data;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,8 +15,10 @@ namespace dataparser
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        public static bool __verbose { get; set; }
+
+        public static void setArguments(string[] args) 
+        { 
             foreach (string arg in args)
             {
                 switch (arg.Substring(0, 2).ToLower())
@@ -23,54 +26,125 @@ namespace dataparser
                     case "-clear":
                         Console.Clear();
                         break;
+                        case "-verbose":
+                        __verbose = true;
+                        break;
                     default:
                         // do other stuff...
                         break;
                 }
             }
+        }
+
+        static void Main(string[] args)
+        {
+            setArguments(args);
 
             var stopwatch = new Stopwatch();
             stopwatch.Start();
-            
+
+            Console.WriteLine("");
             Console.WriteLine("Starting parser.");
             var dataPath = $"{Directory.GetCurrentDirectory()}\\..\\Data\\JSON\\";
             var files = DirSearch(dataPath);
             Console.WriteLine($"Files located: {files.Count }");
 
-            JObject? table = null;
+            JToken Database = JToken.Parse("{}");
             Console.WriteLine($"Reading files.");
             int count = 1;
             foreach (string f in files)
             {
-                var path = f.Replace(dataPath, "").Replace(".JSON", "").Split("\\");
-                Console.Write($"\rReading file {count++} - {path[path.Count()-1]}");
+                JToken? table = null;
+                var path = f.Replace(dataPath, "").Replace(".JSON", "").Split("\\").ToList();
+                var fileName = path[path.Count() - 1];
+                decimal percent = (count/files.Count) * 100;
+                Console.Write($"\r { Math.Round(percent) }% compleate. Reading file {count++} - {fileName}                                                                                ");
 
-                //table = JObject.Parse(System.IO.File.ReadAllText(f));
-                //var tableName = table.Properties().Select(p => p.Name).FirstOrDefault();
-                //table[tableName]
-                //var stringData = Newtonsoft.Json.JsonConvert.SerializeObject(table[tableName]);
+                table = JToken.Parse(System.IO.File.ReadAllText(f));
+                var tableName = table.Children<JProperty>().Select(P => P.Name).FirstOrDefault();
 
+                var stringData = "";
 
-                //System.IO.File.WriteAllText(f, stringData);
-                //return;
+                if (tableName == fileName)
+                {
+                    table = JToken.Parse(Newtonsoft.Json.JsonConvert.SerializeObject(table[tableName]));
+
+                    System.IO.File.WriteAllText(f, stringData);
+                }
+
+                Database = setDatabase(Database, path, table, 0, 64);
             }
+            var output = Newtonsoft.Json.JsonConvert.SerializeObject(Database);
+            System.IO.File.WriteAllText($"{dataPath}\\..\\database.json", output);
+            System.IO.File.WriteAllText($"{dataPath}\\..\\..\\js\\database.js", $"let database = {output};");
+
             stopwatch.Start();
             Console.WriteLine();
             Console.WriteLine("Finished reading files.");
+            Console.WriteLine($"Datasize: {output.Count()} bytes");
             Console.WriteLine($"Runtime: {stopwatch.ElapsedMilliseconds.ToString()}ms.");
         }
 
-        static JObject setDatabase(JObject data, List<string> Name, JObject subData, int depth, int count) {
-        if (depth == 0) return data;
+        static void writeError(String[] args, Exception error) 
+        {
+            Console.WriteLine("");
+            Console.ForegroundColor = ConsoleColor.Red;
+            foreach (var arg in args)
+            { 
+                Console.WriteLine(arg);
+            }
+                    Console.WriteLine("");
+                    Console.WriteLine($"{error.Message}");
+                    Console.WriteLine($"{error.StackTrace}");
+                    Console.ResetColor();
+                    Console.WriteLine("");
 
-        if (Name.Count() > 1) {
-            Name = Name.Skip(1).ToList();
-            
-            //data[Name[0]] = setDatabase(data[Name[0]], Name, subData, --depth, count);
-        } else {
-            data[Name[0]] = subData[Name[0]];
         }
-        return data;
+        static JToken setDatabase(JToken data, List<string> Path, JToken table, int depth, int maxDepth) {
+            if (depth > maxDepth ) return data;
+
+            var path = Path.Skip(depth).FirstOrDefault();
+            var properties = data.Children<JProperty>().Select(P => P.Name).ToList();
+
+            if (!properties.Contains(path))
+            {
+                data[path] = JObject.Parse("{}");
+            }
+
+
+            if (Path.Count() > 1 && depth < Path.Count()-1) {
+                try 
+                {
+                    data[path] = setDatabase(data[path], Path, table, ++depth, maxDepth);
+                }
+                catch (Exception error)
+                {
+                    string[] args = new String[]{
+                        "",
+                        "setDatabase",
+                        "",
+                        $"at Depth:{(depth + 1)}",
+                        $"at Path:{String.Join(" -> ", Path)}"};
+                    writeError(args, error);
+                }
+            } else {
+                try
+                {
+                    data[path] = table;
+                }
+                catch (Exception error)
+                {
+                    string[] args = new String[]{"",
+                        data.ToString(),
+                        "",
+                        "else",
+                        "",
+                        $"at Depth:{(depth + 1)}",
+                        $"at Path:{String.Join(" -> ", Path)}"};
+                    writeError(args, error);
+                }
+            }
+            return data;
         }
 
         static List<string> DirSearch(string sDir)

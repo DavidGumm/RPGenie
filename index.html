@@ -10,70 +10,54 @@
   <meta name="author" content="name">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/css/tabulator_midnight.min.css" integrity="sha256-EOT8E6UbdyInwTrDMsT6AWEfdycM3VH4Xsg6JeG5R00=" crossorigin="anonymous" />
-  <style>
-    html {
-      background: black;
-      color: whitesmoke;
-    }
-    body {
-      color: #ccc;
-    }
-  </style>
-  </head>
+</head>
   <body>
-      <!-- <link href="https://unpkg.com/tabulator-tables@4.5.3/dist/css/tabulator.min.css" rel="stylesheet"/> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/js/tabulator.min.js" integrity="sha256-u2YCVBkzzkIuLh6bMHUmqv6uuuHLxGgc6XF+rCJUV5k=" crossorigin="anonymous"></script>
-  <!-- <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.5.3/dist/js/tabulator.min.js"></script> -->
   <script src="lib/seedrandom/seedrandom.min.js"></script>
   <script src="js/database.js"></script>
   <script src="js/main.js"></script>
-    <div class="row">
-      <div class="twelve columns">
-        <div class="">
-          <label for="count">number of buildings</label>
-          <input id="count" type="number" value="60"></input>
-        </div>
-        <div class="">
-          <label for="seed">seed for generator</label>
-          <input id="seed" value="hello world" type="text"></input>
-        </div>
-        <div class="">
-          <span onclick="generate()" class="button" >Generate</span>
-        </div>
-        </div>
-    </div>
+
+    <fieldset>
+      <legend>Options</legend>
+      <label for="count">number of buildings</label>
+      <input id="count" type="number" value="60"></input>
+      <label for="seed">seed for generator</label>
+      <input id="seed" value="hello world" type="text"></input>
+      <input type="submit" onclick="generate();">
+    </fieldset>
     <div class="table"></div>
     <script>
-      let out = database.Acolyte;
-      console.log(Object.getOwnPropertyNames(database))
-      console.log(out);
-      // const seed = document.querySelector("#seed");
-      // const count = document.querySelector("#count");
 
-      // let Buildings = [];
+      // let out = database.Acolyte;
+      // console.log(Object.getOwnPropertyNames(database))
+      // console.log(out);
+      const seed = document.querySelector("#seed");
+      const count = document.querySelector("#count");
+
+      let Buildings = [];
     
-      // let world = new RPGenie(seed.value);
+      let world = new RPGenie(seed.value);
 
-      // var table = new Tabulator(".table", {
-      //     data: Buildings,
-      //     autoColumns: true,
-      //     layout:"fitData",
-      //     groupBy:"Type",
-      //   });
+      var table = new Tabulator(".table", {
+          data: Buildings,
+          autoColumns: true,
+          layout:"fitData",
+          groupBy:"Type",
+        });
 
-      // function generate() {
-      //   world = new RPGenie(seed.value);
-      //   var total = parseInt(count.value);
-      //   Buildings = [];
-      //   for (let index = 0; index < total; index++) {
-      //     Buildings.push(world.BuildingBuild());
-      //   }
-      //   table.setData(Buildings);
-      // }
-      // generate();
+      function generate() {
+        world = new RPGenie(seed.value);
+        var total = parseInt(count.value);
+        Buildings = [];
+        for (let index = 0; index < total; index++) {
+          Buildings.push(world.BuildingBuild());
+        }
+        table.setData(Buildings);
+      }
+      generate();
 
   </script>
   </body>
