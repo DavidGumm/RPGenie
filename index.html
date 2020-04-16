@@ -5,59 +5,152 @@
 <!--[if gte IE 9]><!--><html><!--<![endif]-->
 <head>
   <meta charset="UTF-8">
+  <title>RPGenie</title>
+  <link rel="stylesheet" href="css/dependencies/dark.standalone.css" id="stylesheet">
+  <link rel="stylesheet" href="css/dependencies/tabulator_midnight.min.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="author" content="name">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/css/tabulator_midnight.min.css" integrity="sha256-EOT8E6UbdyInwTrDMsT6AWEfdycM3VH4Xsg6JeG5R00=" crossorigin="anonymous" />
 </head>
   <body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/4.4.3/js/tabulator.min.js" integrity="sha256-u2YCVBkzzkIuLh6bMHUmqv6uuuHLxGgc6XF+rCJUV5k=" crossorigin="anonymous"></script>
+  <script src="js/dependencies/modernizr.min.js" type="text/javascript"></script>
+  <script src="js/dependencies/tabulator.min.js" type="text/javascript"></script>
   <script src="lib/seedrandom/seedrandom.min.js"></script>
+  <script src="js/Ajax.js"></script>
   <script src="js/database.js"></script>
   <script src="js/main.js"></script>
 
+  <button type="button" id="switch">Switch theme</button>
+
+  <details open="">
+    <summary>City Generation</summary>
     <fieldset>
       <legend>Options</legend>
-      <label for="count">number of buildings</label>
-      <input id="count" type="number" value="60"></input>
       <label for="seed">seed for generator</label>
-      <input id="seed" value="hello world" type="text"></input>
-      <input type="submit" onclick="generate();">
+      <input id="seed" value="RPGenie" type="text" onchange="generate(seed.value);"></input>
+      <input type="submit" onclick="generate(seed.value);">
+      <input type="submit" value="Random" onclick="generateRandom();">
+      <input type="submit" value="Lorem ipsum Random" onclick="LoremIpsumRandom();">
     </fieldset>
+  </details>
+
+  <details open="">
+    <summary>City Details</summary>
+    <p id="details"></p>
+
+  </details>
+
+
     <div class="table"></div>
+    <br>
+    <details open="">
+      <summary>History</summary>
+      <div class="tableHistory"></div>
+    </details>
+    <script src="js/dependencies/water.js"></script>
     <script>
-
+      let test = {};
       const seed = document.querySelector("#seed");
-      const count = document.querySelector("#count");
-
+      const details = document.querySelector("#details");
+      let randomSeed= "";
       let Buildings = [];
-    
+      let history = [];
+
+      function GenerateRandomSeed(length){
+        function toHexString(byteArray) {
+          return Array.from(byteArray, function(byte) {
+            return ('0' + (byte & 0xFF).toString(16)).slice(-2);
+          }).join('');
+        }
+        let byteArray = [];
+        for (let index = 0; index < length; index++) {
+          let byte = Math.floor(Math.random() * Math.floor(255));
+          byteArray.push(byte);
+        }
+        let hexByteString = toHexString(byteArray);
+        return hexByteString;
+      }
+
       let world = new RPGenie(seed.value);
 
-      // var table = new Tabulator(".table", {
-      //     autoColumns: true,
-      //     layout:"fitData",
-      //     groupBy:"Type",
-      //   });
+      var table = new Tabulator(".table", {
+          pagination:"local",
+          paginationSize:20,
+          autoColumns: true,
+          layout:"fitData",
+          groupBy:"Type",
+        });
 
-      function generate() {
-        world = new RPGenie(seed.value);
-        let city = world.CityBuild();
-        console.log(city.BuildingCount)
-        count.value = city.BuildingCount;
-        var total = parseInt(count.value);
+        var tableHistory = new Tabulator(".tableHistory", {
+          pagination:"local",
+          paginationSize:20,
+          columns: [
+            {title:"Seed", field:"Seed", cellClick:function(e, cell){ generate(cell.getValue());} },
+            {title:"Size", field:"Size"}
+          ],
+          layout:"fitData",
+        });
 
+      function generateRandom(){
+        generate(GenerateRandomSeed(8));
+      }
+
+      function LoremIpsumRandom(){
+        let loremIpsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        let loremIpsums = loremIpsum.split(" ");
+        let rnd = Math.floor(Math.random() * Math.floor(loremIpsums.length));
+        generate(loremIpsums[rnd]);
+      }
+
+      function generate(seedValue, genTable = true) {
+        
+        seed.value = seedValue;
+        world = new RPGenie(seedValue);
+        let city = world.cityBuild();
+        let detailsNotes = []
+        detailsNotes.push(`The ${city.Type} of ${city.Name} has a total of ${city.BuildingCount} buildings and a population of ${city.Population}.`)
+        let qualityDetails = [];
+
+        var total = parseInt(city.BuildingCount);
         Buildings = [];
         for (let index = 0; index < total; index++) {
           Buildings.push(world.BuildingBuild());
         }
-        //table.setData(Buildings);
+
+        if(genTable)
+        {
+          table.setData(Buildings);
+        }
+
+        history.push({Seed:seedValue, Size: Buildings.length});
+
+        let buildingQualities = [...new Set(Buildings.map((building)=>{return building.Quality}))]; 
+        buildingQualities.forEach((Quality)=>{
+          let count = Buildings.filter((building)=>{ return building.Quality == Quality}).length;
+          qualityDetails.push(` ${count} ${Quality}`);
+        });
+
+        detailsNotes.push(`The ${city.Type} has ${qualityDetails.join(", ")} buildings.`);
+
+        details.innerText = detailsNotes.join(" ");
       }
-      generate();
+
+      generate(seed.value);
+      let citySize = test.citySize;
+
+      function RandonGen(){
+        let seeds = [];
+        for (let index = 0; index < 1000; index++) {
+          console.log(index)
+          seeds.push(GenerateRandomSeed(8));
+        }
+
+        seeds.forEach(element => {
+          generate(element, false);
+        });
+      }
 
   </script>
   </body>
