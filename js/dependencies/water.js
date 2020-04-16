@@ -59,7 +59,7 @@
       const lightSchemeMql = matchMedia("(prefers-color-scheme: light)");
       const that = this;
 
-      this.themeDir = "/css/dependencies/";
+      this.themeDir = "css/dependencies/";
       this.stylesheet = document.getElementById(stylesheet);
       this.current = this.getThemeName(this.stylesheet.href);
       this.isDark = darkSchemeMql.matches;
