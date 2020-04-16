@@ -60,6 +60,10 @@
       let Buildings = [];
       let history = [];
 
+      function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
       function GenerateRandomSeed(length){
         function toHexString(byteArray) {
           return Array.from(byteArray, function(byte) {
@@ -115,7 +119,7 @@
         world = new RPGenie(seedValue);
         let city = world.cityBuild();
         let detailsNotes = []
-        detailsNotes.push(`The ${city.Type} of ${city.Name} has a total of ${city.BuildingCount} buildings and a population of ${city.Population}.`)
+        detailsNotes.push(`The ${city.Type} of ${city.Name} has a total of ${numberWithCommas(city.BuildingCount)} buildings and a population of ${numberWithCommas(city.Population)}.`)
         let qualityDetails = [];
 
         var total = parseInt(city.BuildingCount);
@@ -135,7 +139,7 @@
         let buildingQualities = [...new Set(Buildings.map((building)=>{return building.Quality}))]; 
         buildingQualities.forEach((Quality)=>{
           let count = Buildings.filter((building)=>{ return building.Quality == Quality}).length;
-          qualityDetails.push(` ${count} ${Quality}`);
+          qualityDetails.push(` ${numberWithCommas(count)} ${Quality}`);
         });
 
         detailsNotes.push(`The ${city.Type} has ${qualityDetails.join(", ")} buildings.`);
