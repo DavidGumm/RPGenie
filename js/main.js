@@ -52,9 +52,22 @@ const RPGenie = function (seed) {
     switch (building.Type) {
       case "Home":
         subtype = ["House"];
+        let superSubtype = [
+          "Single family",
+          "Townhome",
+          "Cottage",
+          "Multi-family",
+          "Carriage/Coach house",
+          "Tiny home",
+          "Mansion",
+          "Chateau",
+          "Villa",
+          "Manor",
+        ];
         break;
       case "Organizational":
         subtype = ["Government", "Guild", "Religious"];
+        let govBuilding = ["Castle", "Palace", "Fort", "Tower", ""];
         break;
       case "Shop":
         subtype = [
