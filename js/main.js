@@ -34,18 +34,16 @@ const RPGenie = function (seed) {
   };
 
   RPGenie.prototype.Type = () => {
-    let types = [
-      "Organizational",
-      "Shop",
-      "Shop",
-      "Shop",
-      "Home",
-      "Home",
-      "Home",
-      "Home",
-      "Home",
-      "Home",
-    ];
+    let BuildingTypes = ["Organizational", "Shop", "Home"];
+
+    let types = [];
+    BuildingTypes.forEach((item, ind) => {
+      let rounds = Math.round(Math.pow(ind + 1, 2 * ind));
+      for (let index = 0; index < rounds; index++) {
+        types.push(item);
+      }
+    });
+    test.types = types;
     return types[this.RandomBetween(types.length)];
   };
 

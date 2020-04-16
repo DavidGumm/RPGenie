@@ -22,6 +22,8 @@
   <script src="js/database.js"></script>
   <script src="js/main.js"></script>
 
+  <h1>RPGenie City Generator</h1>
+
   <button type="button" id="switch">Switch theme</button>
 
   <details open="">
@@ -84,11 +86,14 @@
         });
 
         var tableHistory = new Tabulator(".tableHistory", {
+          data:history,
           pagination:"local",
           paginationSize:20,
           columns: [
             {title:"Seed", field:"Seed", cellClick:function(e, cell){ generate(cell.getValue());} },
-            {title:"Size", field:"Size"}
+            {title:"Name", field:"Name"},
+            {title:"Type", field:"Type"},
+            {title:"Size", field:"Size"},
           ],
           layout:"fitData",
         });
@@ -119,12 +124,13 @@
           Buildings.push(world.BuildingBuild());
         }
 
+        history.push({Seed:seedValue, Size: Buildings.length, Name: city.Name, Type: city.Type});
+
         if(genTable)
         {
           table.setData(Buildings);
+          tableHistory.setData(history);
         }
-
-        history.push({Seed:seedValue, Size: Buildings.length});
 
         let buildingQualities = [...new Set(Buildings.map((building)=>{return building.Quality}))]; 
         buildingQualities.forEach((Quality)=>{
