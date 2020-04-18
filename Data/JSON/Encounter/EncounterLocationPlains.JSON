@@ -1,0 +1,27 @@
+{
+    "EncounterLocationPlains":  {
+                                    "Title":  "Encounter Location Plains",
+                                    "Description":  null,
+                                    "Items":  [
+                                                  "An ancient goblinoid-made bridge",
+                                                  "A quiet windmill",
+                                                  "A deep river into a small lake",
+                                                  "A mossy area of tall grass",
+                                                  "An overgrown campsite",
+                                                  "A flower-dotted hedge",
+                                                  "A brightly-painted bridge",
+                                                  "A fresh trail",
+                                                  "An insect-covered field of crops",
+                                                  "A group of tents by a beast pen",
+                                                  "A sheltered farm",
+                                                  "3 isolated trees",
+                                                  "A clear river with stepping stones",
+                                                  "An overgrown area of tall grass",
+                                                  "A cave entrance",
+                                                  "An abandoned watchtower",
+                                                  "A wide river with a ford",
+                                                  "A hot spring",
+                                                  "Crumbling standing stones"
+                                              ]
+                                }
+}

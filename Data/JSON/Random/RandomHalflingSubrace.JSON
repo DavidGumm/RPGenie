@@ -1,0 +1,12 @@
+{
+    "RandomHalflingSubrace":  {
+                                  "Title":  "Random Halfling Subrace",
+                                  "Description":  null,
+                                  "Items":  [
+                                                "Lightfoot",
+                                                "Stout",
+                                                "Ghostwise",
+                                                "Strongheart"
+                                            ]
+                              }
+}

@@ -1,0 +1,17 @@
+{
+    "TinyRichShopType":  {
+                             "Title":  "Tiny Rich Shop Type",
+                             "Description":  null,
+                             "Items":  [
+                                           "small cart",
+                                           "small outbuilding",
+                                           "silk tent",
+                                           "large chest",
+                                           "small wagon",
+                                           "pack animal",
+                                           "sales stand",
+                                           "merchant\u0027s cart",
+                                           "beautiful gazebo"
+                                       ]
+                         }
+}

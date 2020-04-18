@@ -1,0 +1,30 @@
+{
+    "TavernSpecialsMenu":  {
+                               "Title":  "Tavern Specials Menu",
+                               "Description":  null,
+                               "Items":  [
+                                             "Aged cod and eggs broth cooked in Loyal Sword Mead",
+                                             "Aromatic fried lobster on a bed of lamb cooked in Crazy Rat Lager",
+                                             "Aromatic shark and jellyfish pie cooked in Bachelor\u0027s Sword Beer",
+                                             "Battered baked tree bark with a side of melon cooked in Crazy Viscount Bitter",
+                                             "Bitter baked cat with a side of spinach cooked in Easy Baron Grog",
+                                             "Delicious boiled swan cooked in Clever Corsair Wine",
+                                             "Delicious spinach, eggs, and goat pie cooked in Happy Eye Spirits",
+                                             "Fresh dolphin and horse broth cooked in Cold Sword Lager",
+                                             "Fresh platter of blueberries, fish, and bass cooked in Proud Corsair Gin",
+                                             "Glazed fried lobster on a bed of jellyfish cooked in Happy Emperor Brandy",
+                                             "Marinated roasted mermaid served with lizard cooked in Haughty Dancer Spirits",
+                                             "Our acclaimed doe and pasta stew cooked in Charming Dog Ale",
+                                             "Our acclaimed fish and balrog stew cooked in Moody Eye Whiskey",
+                                             "Our renowned fried mud on a bed of tomatoes cooked in Humble Bill Grog",
+                                             "Our renowned lamb sausages and mashed bread cooked in Jealous Jake Whiskey",
+                                             "Peppery deep-fried raspberries cooked in Humble Rat Rum",
+                                             "Pickled pineapple and mud stew cooked in Flying Eye Whiskey",
+                                             "Seared grilled vegetables and pork cooked in Pretty John Bitter",
+                                             "Special fungus and horse casserole cooked in Black Jack Stout",
+                                             "Spicy charbroiled hydra and bass cooked in Pretty Dancer Ale",
+                                             "Tangy grilled pony and tree bark cooked in Cheap Rat Whiskey",
+                                             "Tender grilled pork and boar cooked in Pretty Eye Ale"
+                                         ]
+                           }
+}

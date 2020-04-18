@@ -1,0 +1,31 @@
+{
+    "SmallUpscaleTavernType":  {
+                                   "Title":  "Small Upscale Tavern Type",
+                                   "Description":  null,
+                                   "Items":  [
+                                                 "well-maintained wooden building",
+                                                 "large silk tent",
+                                                 "gleaming single-floor building",
+                                                 "sturdy single-floor building",
+                                                 "new-looking building",
+                                                 "well-kept wooden building",
+                                                 "stately brick building",
+                                                 "building resembling a castle",
+                                                 "friendly-looking place",
+                                                 "pristine stone building",
+                                                 "shiny silver building",
+                                                 "door set into the side of a stone wall",
+                                                 "building made from marble and carved stone",
+                                                 "building with pillars in front",
+                                                 "artistically-designed masonry building",
+                                                 "wooden building",
+                                                 "brick building",
+                                                 "marble building",
+                                                 "stone building",
+                                                 "clean building",
+                                                 "loud building",
+                                                 "spotless and well-manicured building",
+                                                 "busy single-floor building"
+                                             ]
+                               }
+}

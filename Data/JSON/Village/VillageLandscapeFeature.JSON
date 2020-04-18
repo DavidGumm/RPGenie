@@ -1,0 +1,28 @@
+{
+    "VillageLandscapeFeature":  {
+                                    "Title":  "Village Landscape Feature",
+                                    "Description":  null,
+                                    "Items":  [
+                                                  "thick forest",
+                                                  "vast desert",
+                                                  "sheer cliff",
+                                                  "vast prarie",
+                                                  "impassable bog",
+                                                  "series of rolling hills",
+                                                  "dark thicket",
+                                                  "sizeable farmland",
+                                                  "herd of livestock",
+                                                  "gypsy encampment",
+                                                  "field of boulders and strewn stone",
+                                                  "mountainside",
+                                                  "single gigantic oak tree",
+                                                  "field of wheat",
+                                                  "fog-covered swampland",
+                                                  "forboding wood",
+                                                  "seemingly endless field of [Color] flowers",
+                                                  "abandoned shack",
+                                                  "ancient collapsed ruin",
+                                                  "graveyard"
+                                              ]
+                                }
+}

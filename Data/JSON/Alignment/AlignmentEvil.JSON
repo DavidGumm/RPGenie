@@ -1,0 +1,11 @@
+{
+    "AlignmentEvil":  {
+                          "Title":  "Alignment Evil",
+                          "Description":  "A subtable of the RCG Character Generator table, this table will determine character alignment.",
+                          "Items":  [
+                                        "Lawful Evil",
+                                        "Neutral Evil",
+                                        "Chaotic Evil"
+                                    ]
+                      }
+}

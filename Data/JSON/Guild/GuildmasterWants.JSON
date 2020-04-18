@@ -1,0 +1,23 @@
+{
+    "GuildmasterWants":  {
+                             "Title":  "Guildmaster Wants",
+                             "Description":  null,
+                             "Items":  [
+                                           "to make money at all costs",
+                                           "to pass the guild to the next in line",
+                                           "to retire",
+                                           "to out-perform the competitors",
+                                           "to hob-nob with royalty",
+                                           "to have a good reputation",
+                                           "to increase membership",
+                                           "to quit any day",
+                                           "to fall in love",
+                                           "to see some fighting action one day",
+                                           "the world to be a safer place",
+                                           "to be home raising children instead of managing this headache of a guild",
+                                           "to discover the the secrets of a rival guild",
+                                           "to become famous for their leadership of the guild",
+                                           "to join the clergy"
+                                       ]
+                         }
+}

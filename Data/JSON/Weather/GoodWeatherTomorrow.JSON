@@ -1,0 +1,9 @@
+{
+    "GoodWeatherTomorrow":  {
+                                "Title":  "Good Weather Tomorrow",
+                                "Description":  null,
+                                "Items":  [
+                                              "[Weather Sky Good] and [Weather Air Good]. [Weather Detail Good]"
+                                          ]
+                            }
+}

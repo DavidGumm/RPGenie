@@ -1,0 +1,10 @@
+{
+    "TavernUniqueFeatureYesOrNo":  {
+                                       "Title":  "Tavern Unique Feature Yes Or No",
+                                       "Description":  null,
+                                       "Items":  [
+                                                     null,
+                                                     "\u003cu\u003eThis tavern has a unique feature:\u003c/u\u003e\u003cp\u003e[Tavern Unique Feature]\u003c/p\u003e"
+                                                 ]
+                                   }
+}

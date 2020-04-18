@@ -1,0 +1,16 @@
+{
+    "SageSpecialty":  {
+                          "Title":  "Sage Specialty",
+                          "Description":  "Sage Specialty Table",
+                          "Items":  [
+                                        "Alchemist",
+                                        "Astronomer",
+                                        "Discredited academic",
+                                        "Librarian",
+                                        "Professor",
+                                        "Researcher",
+                                        "Wizard\u0027s apprentice",
+                                        "Scribe"
+                                    ]
+                      }
+}

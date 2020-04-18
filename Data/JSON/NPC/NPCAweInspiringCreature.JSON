@@ -1,0 +1,19 @@
+{
+    "NPCAweInspiringCreature":  {
+                                    "Title":  "NPC Awe Inspiring Creature",
+                                    "Description":  null,
+                                    "Items":  [
+                                                  "mermaid",
+                                                  "unicorn",
+                                                  "phoenix",
+                                                  "leprechaun",
+                                                  "hippogriff",
+                                                  "sphinx",
+                                                  "centaur",
+                                                  "pegasus",
+                                                  "caladrius",
+                                                  "valkyrie",
+                                                  "angel"
+                                              ]
+                                }
+}

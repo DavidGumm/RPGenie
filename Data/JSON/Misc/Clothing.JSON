@@ -1,0 +1,22 @@
+{
+    "Clothing":  {
+                     "Title":  "Clothing 2",
+                     "Description":  null,
+                     "Items":  [
+                                   "well dressed",
+                                   "wearing cheap jewelery",
+                                   "wearing tight clothes",
+                                   "wearing revealing clothes",
+                                   "wearing dirty clothes",
+                                   "wearing oversized clothes",
+                                   "wearing a fancy hat",
+                                   "wearing a cloak and cowl.",
+                                   "wearing flashy silk clothes",
+                                   "wearing a silly costume",
+                                   "armed with several types of weapons",
+                                   "wearing a shirt that is on backwards",
+                                   "wearing expensive jewelry",
+                                   "wearing a curiously interesting necklace pendant"
+                               ]
+                 }
+}

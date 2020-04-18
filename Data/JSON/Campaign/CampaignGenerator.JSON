@@ -1,0 +1,12 @@
+{
+    "CampaignGenerator":  {
+                              "Title":  "01 - Campaign Generator",
+                              "Description":  "My hope is you can spin the wheel on this and run a game with what it gives you. Right now, there are four plots centered around two premises. \\n***Make sure you read the entire campaign before you start- there is a ton of information and being prepared will set you up for success!***",
+                              "Items":  [
+                                            "Rescue a Captive",
+                                            "Discover The Fate of a Previous Adventuring Party",
+                                            "Destroy a Magical Threat",
+                                            "Retrieve a Stolen Item"
+                                        ]
+                          }
+}

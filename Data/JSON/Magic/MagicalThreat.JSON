@@ -1,0 +1,14 @@
+{
+    "MagicalThreat":  {
+                          "Title":  "Magical Threat",
+                          "Description":  null,
+                          "Items":  [
+                                        "conjure Blood Magic",
+                                        "begin a terrible ritual",
+                                        "summon an ancient evil",
+                                        "use dark magics to assassinate the King",
+                                        "unlock the secrets of an evil artifact",
+                                        "open a portal"
+                                    ]
+                      }
+}

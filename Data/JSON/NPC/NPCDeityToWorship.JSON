@@ -1,0 +1,11 @@
+{
+    "NPCDeityToWorship":  {
+                              "Title":  "NPC Deity To Worship",
+                              "Description":  null,
+                              "Items":  [
+                                            "no gods",
+                                            "Demon Lord [Demon Lord|1]",
+                                            "the god [Deities Reference|1]"
+                                        ]
+                          }
+}

@@ -1,0 +1,11 @@
+{
+    "HalfBreedFirstHalfM":  {
+                                "Title":  "Half Breed First Half M",
+                                "Description":  null,
+                                "Items":  [
+                                              "1/2 Human, [Half Breed Second Half M 1]",
+                                              "1/2 Elf, [Half Breed Second Half M 2]",
+                                              "1/2 Dwarf, [Half Breed Second Half M 3]"
+                                          ]
+                            }
+}

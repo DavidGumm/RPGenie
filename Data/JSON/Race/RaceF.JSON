@@ -1,0 +1,18 @@
+{
+    "RaceF":  {
+                  "Title":  "Race F",
+                  "Description":  null,
+                  "Items":  [
+                                "[Random Elf F]",
+                                "[Random Gnome F]",
+                                "[Random Dragonborn Color] Dragonborn named [Dragonborn Female First Names] [Dragonborn Clan Names]",
+                                "[Random Dwarf M Or F]",
+                                "Goliath named [Random Goliath Birth Name 2]",
+                                "Half-Breed that is a [Half Breed First Half F]",
+                                "Human named [Random Human Female First Name] [Random Human Female Last Name]",
+                                "Half-Orc named [Random Half-Orc Female Name 2]",
+                                "[Random Halfling M Or F]",
+                                "Tiefling named [Random Tiefling Female Name 2]"
+                            ]
+              }
+}

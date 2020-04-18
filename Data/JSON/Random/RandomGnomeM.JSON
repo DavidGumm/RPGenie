@@ -1,0 +1,11 @@
+{
+    "RandomGnomeM":  {
+                         "Title":  "Random Gnome M",
+                         "Description":  null,
+                         "Items":  [
+                                       "Deep Gnome named [Gnome Male First Names] [Gnome Clan Names]",
+                                       "Forest Gnome named [Gnome Male First Names] [Gnome Clan Names]",
+                                       "Rock Gnome named [Gnome Male First Names] [Gnome Clan Names]"
+                                   ]
+                     }
+}

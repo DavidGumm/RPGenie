@@ -1,0 +1,17 @@
+{
+    "LargeRichShopType":  {
+                              "Title":  "Large Rich Shop Type",
+                              "Description":  null,
+                              "Items":  [
+                                            "three story building",
+                                            "beautiful silver warehouse",
+                                            "marble collumned storefront",
+                                            "large collection of interconnected silk tents",
+                                            "giant wagon train",
+                                            "towering outbuilding",
+                                            "two story building",
+                                            "stylistically designed multi-floor building",
+                                            "opulent brick multi-floor building"
+                                        ]
+                          }
+}

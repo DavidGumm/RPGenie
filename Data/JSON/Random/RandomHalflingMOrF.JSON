@@ -1,0 +1,12 @@
+{
+    "RandomHalflingMOrF":  {
+                               "Title":  "Random Halfling M Or F",
+                               "Description":  null,
+                               "Items":  [
+                                             "Lightfoot Halfling named [Halfling Full Name]",
+                                             "Stout Halfling named [Halfling Full Name]",
+                                             "Ghostwise Halfling named [Halfling Full Name]",
+                                             "Strongheart Halfling named [Halfling Full Name]"
+                                         ]
+                           }
+}

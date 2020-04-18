@@ -1,0 +1,9 @@
+{
+    "TavernMenuGeneratorResultShareable":  {
+                                               "Title":  "08 - Tavern Menu Generator (Result Shareable!)",
+                                               "Description":  "This template generates a menu you can share with your PCs without generating an entire tavern.\\n\\nNOTE: The tavern generator accounts for the size and reputation of a tavern when generating a menu, while this menu does not. The tavern generator also dynamically says if there are rooms available or not, and this is just for food.",
+                                               "Items":  [
+                                                             "Tavern Menu"
+                                                         ]
+                                           }
+}

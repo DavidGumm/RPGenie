@@ -1,0 +1,15 @@
+{
+    "NPCHaunted":  {
+                       "Title":  "NPC Haunted",
+                       "Description":  null,
+                       "Items":  [
+                                     "Spirits locked in battle",
+                                     "A tortured revenant who must relive its brutal murder",
+                                     "A benign phantom who provides small comforts and messages",
+                                     "A crazed banshee",
+                                     "A spiteful haunt, who appears as dead loved ones and friends",
+                                     "A playful poltergeist, a childish trickster",
+                                     "An evil ghost, driven to consume lifeforce in a bid to regain life"
+                                 ]
+                   }
+}

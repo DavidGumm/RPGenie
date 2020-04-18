@@ -1,0 +1,17 @@
+{
+    "MediumPoorShopType":  {
+                               "Title":  "Medium Poor Shop Type",
+                               "Description":  null,
+                               "Items":  [
+                                             "rickedy metal cart",
+                                             "dilapidated storefront",
+                                             "decent-sized weathered tent",
+                                             "collection of several large beat-up chests",
+                                             "burned down building",
+                                             "listing outbuilding",
+                                             "crumbling brick single-floor building",
+                                             "dirty outbuilding",
+                                             "medium-sized weathered wood building"
+                                         ]
+                           }
+}

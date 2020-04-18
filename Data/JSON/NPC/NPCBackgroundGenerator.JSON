@@ -1,0 +1,9 @@
+{
+    "NPCBackgroundGenerator":  {
+                                   "Title":  "NPC Background Generator",
+                                   "Description":  null,
+                                   "Items":  [
+                                                 "--"
+                                             ]
+                               }
+}

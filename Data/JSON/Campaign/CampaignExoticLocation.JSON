@@ -1,0 +1,28 @@
+{
+    "CampaignExoticLocation":  {
+                                   "Title":  "Campaign Exotic Location",
+                                   "Description":  "Exotic Location table.",
+                                   "Items":  [
+                                                 "among the branches of a tree",
+                                                 "around a geyser",
+                                                 "behind a waterfall",
+                                                 "buried in an avalanche",
+                                                 "buried in a sandstorm",
+                                                 "buried in volcanic ash",
+                                                 "castle or structure sunken in a swamp",
+                                                 "castle or structure at the bottom of a sinkhole",
+                                                 "floating on the sea",
+                                                 "in a meteorite",
+                                                 "on a demiplane or in a pocket dimension",
+                                                 "in an area devastated by a magical catastrophe",
+                                                 "on a cloud",
+                                                 "in the Feywild",
+                                                 "in the Shadowfell",
+                                                 "on an island in an underground sea",
+                                                 "in a volcano",
+                                                 "on the back of a Gargantuan living creature",
+                                                 "sealed inside a magical dome of force",
+                                                 "inside a Mordenkainen\u0027s magnificent mansion"
+                                             ]
+                               }
+}

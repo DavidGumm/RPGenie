@@ -1,0 +1,33 @@
+{
+    "SmallSeedyTavernType":  {
+                                 "Title":  "Small Seedy Tavern Type",
+                                 "Description":  null,
+                                 "Items":  [
+                                               "dilapidated barn",
+                                               "large torn canvas tent",
+                                               "creaky single-floor ramshackle building",
+                                               "listing single-floor building",
+                                               "building looking like it barely survived a fire",
+                                               "dirty-looking wooden building",
+                                               "crumbling brick building",
+                                               "building resembling several small sheds nailed together",
+                                               "shady-looking place",
+                                               "beat-up stone building",
+                                               "repurposed livestock outbuilding",
+                                               "door set into the side of a muddy hill",
+                                               "\"building\" apparently made from dried, caked mud",
+                                               "ramshackle lean-to building",
+                                               "cracked masonry building",
+                                               "wooden building",
+                                               "brick building",
+                                               "thatch building",
+                                               "stone building",
+                                               "dirty building",
+                                               "loud building",
+                                               "mud-caked and blood-stained building",
+                                               "cobweb-covered single-floor building",
+                                               "building that looks like it was built from whatever was lying around at the time",
+                                               "wooden building which might have been built by a blind man without hands from the looks of it"
+                                           ]
+                             }
+}

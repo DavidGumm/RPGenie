@@ -1,0 +1,15 @@
+{
+    "MinorEnemy":  {
+                       "Title":  "Minor Enemy",
+                       "Description":  null,
+                       "Items":  [
+                                     "Snubbed ex-friend",
+                                     "School bully",
+                                     "Business rival",
+                                     "Local thug",
+                                     "Romantic rival",
+                                     "Spiteful boss or teacher",
+                                     "Family member"
+                                 ]
+                   }
+}

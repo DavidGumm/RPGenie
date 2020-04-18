@@ -1,0 +1,17 @@
+{
+    "EvilDeities":  {
+                        "Title":  "Evil Deities",
+                        "Description":  null,
+                        "Items":  [
+                                      "Asmodeus",
+                                      "Bane",
+                                      "Grummsh",
+                                      "Lolth",
+                                      "Tharizdun",
+                                      "Tiamat",
+                                      "Torog",
+                                      "Vecna",
+                                      "Zehir"
+                                  ]
+                    }
+}

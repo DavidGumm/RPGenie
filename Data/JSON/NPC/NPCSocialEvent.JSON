@@ -1,0 +1,15 @@
+{
+    "NPCSocialEvent":  {
+                           "Title":  "NPC Social Event",
+                           "Description":  null,
+                           "Items":  [
+                                         "An invitation to an upcoming event (party, play, etc..) given by a mysterious stranger.",
+                                         "A local revival of [Deities Reference|1] followers is nearby, and is drawing crowds",
+                                         "A challenge has been issued by the local ruler, calling for Feats of [NPC Ability]",
+                                         "The [City Guilds] Guild is permitting new members to join, decided by a contest (see Guild Generators)",
+                                         "A circus has come to town. Rumors are they are taking on workers/performers",
+                                         "A fancy dress party for the local ruler has drawn all the wealthy in the area",
+                                         "The marriage/birth/death/divorce/something else of (local ruler) or (ruler\u0027s family/spouse)"
+                                     ]
+                       }
+}

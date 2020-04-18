@@ -1,0 +1,15 @@
+{
+    "NPCEvilDeeds":  {
+                         "Title":  "NPC Evil Deeds",
+                         "Description":  null,
+                         "Items":  [
+                                       "Humiliate and torture a rival",
+                                       "Collect an extortion\u0027s payoff and punish the offender",
+                                       "Steal from friends or family",
+                                       "Badly beat or kill a rival",
+                                       "Destroy a business, financially or physically",
+                                       "Agitate a harmful political message or religious doctrine",
+                                       "Spread lies and rumors against an individual or group of a shocking nature"
+                                   ]
+                     }
+}

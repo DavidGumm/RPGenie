@@ -1,0 +1,18 @@
+{
+    "AbandonedBuildingType":  {
+                                  "Title":  "Abandoned Building Type",
+                                  "Description":  null,
+                                  "Items":  [
+                                                "castle",
+                                                "fort",
+                                                "temple",
+                                                "farmhouse",
+                                                "ruin",
+                                                "tower",
+                                                "guardshack",
+                                                "mineshaft",
+                                                "windmill",
+                                                "hovel"
+                                            ]
+                              }
+}
