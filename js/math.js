@@ -1,29 +1,16 @@
 function BellCurve(Mean, Deviation, x) {
-  //1 / (B2* SQRT(2 * PI())) ^ (EXP(1) ^ -((B3 - B1) ^ 2 / (2 * B2 ^ 2)))
-  //1 / ((B2* SQRT(2 * PI())) ^ ((EXP(1) ^ (-(((B3 - B1) ^ 2) / (2 * (B2 ^ 2)))))))
-  //1 / ((Deviation* Math.sqrt(2 * Math.PI)) ^ ((Math.E ^ (-(((x - Mean) ^ 2) / (2 * (Deviation ^ 2)))))))
-
-  var Mean = 950;
-  var Deviation = 200;
-  var x = 850;
-
-  let c1 = Deviation ^ 2;
-  let c2 = 2 * c1;
-  let c3 = x - Mean;
-  let c4 = c3 ^ 2;
-  let c5 = c4 / c2;
-  let c6 = Math.E ^ -c5;
-  let c7 = 2 * Math.PI;
-  let c8 = Math.sqrt(c7);
-  let c9 = Deviation * c8;
-  let c10 = c9 ^ c6;
-  let c11 = 1 / c10;
-
-  console.log(c11);
-
-  return c11;
+  return (
+    (1 /
+      Math.pow(
+        Deviation * Math.sqrt(2 * Math.PI),
+        Math.pow(
+          Math.E,
+          -(Math.pow(x - Mean, 2) / (2 * Math.pow(Deviation, 2)))
+        )
+      )) *
+    100
+  );
 }
-BellCurve(950, 200, 850);
 
 function BuildBellCurve(Mean, Deviation) {
   for (let index = 1; index < Mean; index++) {
@@ -33,16 +20,33 @@ function BuildBellCurve(Mean, Deviation) {
 
 BuildBellCurve(18, 3.75);
 
-c1 = Deviation ^ 2;
+Mean = 950;
+Deviation = 200;
+x = 850;
+
+c1 = Math.pow(Deviation, 2);
 c2 = 2 * c1;
 c3 = x - Mean;
-c4 = c3 ^ 2;
+c4 = Math.pow(c3, 2);
 c5 = c4 / c2;
-c6 = Math.E ^ (c5 * -1);
+c6 = Math.pow(Math.E, c5 * -1);
 c7 = 2 * Math.PI;
 c8 = Math.sqrt(c7);
 c9 = Deviation * c8;
-c10 = c9 ^ c6;
+c10 = Math.pow(c9, c6);
 c11 = 1 / c10;
+
+console.log(c1);
+console.log(c2);
+console.log(c3);
+console.log(c4);
+console.log(c5);
+console.log(c6);
+console.log(c7);
+console.log(c8);
+console.log(c9);
+console.log(c10);
+
+console.log("");
 
 console.log(c11);

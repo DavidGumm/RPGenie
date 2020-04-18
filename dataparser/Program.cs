@@ -63,6 +63,8 @@ namespace dataparser
                 parseJSON();
             }
 
+            parseJSON();
+
             stopwatch.Start();
             Console.WriteLine();
             Console.WriteLine("Finished.");
@@ -99,13 +101,12 @@ namespace dataparser
                 table = JToken.Parse(System.IO.File.ReadAllText(f));
                 var tableName = table.Children<JProperty>().Select(P => P.Name).FirstOrDefault();
 
-                var stringData = "";
+                //var stringData = "";
 
                 if (tableName == fileName)
                 {
                     table = JToken.Parse(Newtonsoft.Json.JsonConvert.SerializeObject(table[tableName]));
-
-                    System.IO.File.WriteAllText(f, stringData.ToString());
+                    System.IO.File.WriteAllText(f, table.ToString());
                 }
 
                 Database = setDatabase(Database, path, table, 0, 64);
@@ -181,27 +182,7 @@ namespace dataparser
 
         static List<string> DirSearch(string sDir)
         {
-            var files = new List<string>();
-            try
-            {
-                foreach (string f in Directory.GetFiles(sDir))
-                {
-                    files.Add(f);
-                }
-                foreach (string d in Directory.GetDirectories(sDir))
-                {
-                    foreach (string f in Directory.GetFiles(d))
-                    {
-                        files.Add(f);
-                    }
-                    DirSearch(d);
-                }
-            }
-            catch (System.Exception exception)
-            {
-                Console.WriteLine(exception.Message);
-            }
-            return files;
+            return Directory.GetFiles(sDir, "*.JSON", SearchOption.AllDirectories).ToList();
         }
     }
 }
