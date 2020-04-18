@@ -1,0 +1,14 @@
+{
+    "ElvenName":  {
+                      "Title":  "Elven Name",
+                      "Description":  "Elven Name Table",
+                      "Items":  [
+                                    "[Elven Female First Names] [Elven Family Names] (Female Elf)",
+                                    "[Elven Male First Names] [Elven Family Names] (Male Elf)",
+                                    "[Elven Male First Names] [Elven Family Name, Pt I][Elven Family Name, Pt II] (Male Elf)",
+                                    "[Elven Female First Names] [Elven Family Name, Pt I][Elven Family Name, Pt II] (Female Elf)",
+                                    "[Elven First Name, Pt I][Elven First Name, Pt II] [Elven Family Names]",
+                                    "[Elven First Name, Pt I][Elven First Name, Pt II] [Elven Family Name, Pt I][Elven Family Name, Pt II]"
+                                ]
+                  }
+}

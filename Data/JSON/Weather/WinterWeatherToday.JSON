@@ -1,0 +1,11 @@
+{
+    "WinterWeatherToday":  {
+                               "Title":  "Winter Weather Today",
+                               "Description":  null,
+                               "Items":  [
+                                             "[Bad Winter Weather Tomorrow]",
+                                             "[Medium Winter Weather Tomorrow]",
+                                             "[Good Winter Weather Tomorrow]"
+                                         ]
+                           }
+}

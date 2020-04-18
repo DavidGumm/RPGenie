@@ -1,0 +1,15 @@
+{
+    "NPCCursed":  {
+                      "Title":  "NPC Cursed",
+                      "Description":  null,
+                      "Items":  [
+                                    "Time moves at a different speed",
+                                    "Sleep and rest is impossible",
+                                    "Extreme heat or cold",
+                                    "An overwhelming aura of helplessness and suffering",
+                                    "Plagues of vermin",
+                                    "Foul weather",
+                                    "Corruption of reality"
+                                ]
+                  }
+}

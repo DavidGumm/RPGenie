@@ -1,0 +1,15 @@
+{
+    "NPCVendetta":  {
+                        "Title":  "NPC Vendetta",
+                        "Description":  null,
+                        "Items":  [
+                                      "Wrongfully jailed or persecuted",
+                                      "Racial crusade",
+                                      "Revenge for theft or deception",
+                                      "Revenge for personal death(s)",
+                                      "Religious crusade (local or part of a Faithquest)",
+                                      "Political persecution",
+                                      "Social status destroyed or socially exiled"
+                                  ]
+                    }
+}

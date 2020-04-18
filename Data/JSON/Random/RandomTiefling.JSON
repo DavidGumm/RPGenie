@@ -1,0 +1,12 @@
+{
+    "RandomTiefling":  {
+                           "Title":  "Random Tiefling",
+                           "Description":  null,
+                           "Items":  [
+                                         "Male Tiefling",
+                                         "[Random Tiefling Male Name]",
+                                         "Female Tiefling",
+                                         "[Random Tiefling Female Name]"
+                                     ]
+                       }
+}

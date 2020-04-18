@@ -1,0 +1,25 @@
+{
+    "RandomNPCName":  {
+                          "Title":  "Random NPC Name",
+                          "Description":  null,
+                          "Items":  [
+                                        "[Random Dwarf Female First Name]",
+                                        "[Random Dwarf Male First Name]",
+                                        "[Random Elf Female First Name]",
+                                        "[Random Elf Male First Name]",
+                                        "[Random Dragonborn Female Name]",
+                                        "[Random Dragonborn Male Name]",
+                                        "[Random Human Female First Name]",
+                                        "[Random Human Male First Name]",
+                                        "[Random Half-Orc Female Name 2]",
+                                        "[Random Half-Orc Male Name 2]",
+                                        "[Random Halfling Female First Name]",
+                                        "[Random Halfling Male First Name]",
+                                        "[Random Gnome Female Name 2]",
+                                        "[Random Gnome Male Name 2]",
+                                        "[Random Goliath Birth Name 2]",
+                                        "[Random Tiefling Female Name 2]",
+                                        "[Random Tiefling Male Name 2]"
+                                    ]
+                      }
+}

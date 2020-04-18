@@ -1,0 +1,10 @@
+{
+    "BrothelType":  {
+                        "Title":  "Brothel Type",
+                        "Description":  null,
+                        "Items":  [
+                                      "[Large Seedy Tavern Type] [Seedy Brothel Description], [Seedy Brothel Approach]",
+                                      "[Large Upscale Tavern Type] [Upscale Brothel Description], [Upscale Brothel Approach]"
+                                  ]
+                    }
+}

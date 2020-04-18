@@ -1,0 +1,16 @@
+{
+    "Direction":  {
+                      "Title":  "Direction",
+                      "Description":  null,
+                      "Items":  [
+                                    "north",
+                                    "south",
+                                    "east",
+                                    "west",
+                                    "northwest",
+                                    "southwest",
+                                    "northeast",
+                                    "southeast"
+                                ]
+                  }
+}

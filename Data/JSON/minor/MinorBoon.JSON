@@ -1,0 +1,29 @@
+{
+    "MinorBoon":  {
+                      "Title":  "Minor Boon",
+                      "Description":  null,
+                      "Items":  [
+                                    "Will ensure that an enemy (Major or Minor) has been temporarily thwarted",
+                                    "\u003cp\u003e-\u003c/p\u003eMajor Enemy: [Major Enemy]",
+                                    "\u003cp\u003e-\u003c/p\u003eMinor Enemy: [Minor Enemy]",
+                                    "Will give the party a minor magic item",
+                                    null,
+                                    null,
+                                    "Will offer the party a small amount of money or resources",
+                                    null,
+                                    null,
+                                    "Will offer the party a magicked gemstone (use 0-level or Cantrip effect, 1/day, as level 1 caster)",
+                                    null,
+                                    null,
+                                    "Awards the party a minor property or an improvement to a minor property",
+                                    null,
+                                    null,
+                                    "Personal relationship established with potential ally or social status increases with ally",
+                                    null,
+                                    null,
+                                    "Assists the party: For one day, all activities are easier. +1",
+                                    null,
+                                    null
+                                ]
+                  }
+}

@@ -1,0 +1,14 @@
+{
+    "MerchantLargeRichInventory":  {
+                                       "Title":  "Merchant Large Rich Inventory",
+                                       "Description":  null,
+                                       "Items":  [
+                                                     "ADVENTURING GEAR: [3d10-1x][Merchant Adventuring Gear]",
+                                                     "RATIONS: [Merchant Rations Rich]",
+                                                     "TOOLS: [3d10-1x][Merchant Tools]",
+                                                     "ARMOR: [3d10-1x][Merchant Armor]",
+                                                     "WEAPONS: [3d10-1x][Merchant Weapons]",
+                                                     "MAGIC ITEMS (these are never just out in the open, the shopkeeper safeguards them): [1d6-1x][Merchant Magic Items]"
+                                                 ]
+                                   }
+}

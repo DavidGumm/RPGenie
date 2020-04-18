@@ -1,0 +1,10 @@
+{
+    "VillageDwarfGenerator":  {
+                                  "Title":  "Village Dwarf Generator",
+                                  "Description":  null,
+                                  "Items":  [
+                                                "[Dwarven First Name] [Dwarven Last Name], a male Dwarf",
+                                                "[Dwarven First Name] [Dwarven Last Name], a female Dwarf"
+                                            ]
+                              }
+}

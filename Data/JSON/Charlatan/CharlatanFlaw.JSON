@@ -1,0 +1,14 @@
+{
+    "CharlatanFlaw":  {
+                          "Title":  "Charlatan Flaw",
+                          "Description":  "Charlatan Flaw Table",
+                          "Items":  [
+                                        "I can\u0027t resist a pretty face.",
+                                        "I\u0027m always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in..",
+                                        "I\u0027m convinced that no one could ever fool me the way I fool others.",
+                                        "I\u0027m too greedy for my own good. I can\u0027t resist taking a risk if there\u0027s money involved.",
+                                        "I can\u0027t resist swindling people who are more powerful than me.",
+                                        "I hate to admit it and will hate myself for it, but I\u0027ll run and preserve my own hide if the going gets tough."
+                                    ]
+                      }
+}

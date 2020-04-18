@@ -1,0 +1,14 @@
+{
+    "VillageBuildingLocation":  {
+                                    "Title":  "Village Building Location",
+                                    "Description":  null,
+                                    "Items":  [
+                                                  "center",
+                                                  "far side",
+                                                  "eastern quadrant",
+                                                  "northern face",
+                                                  "southern edge",
+                                                  "west side"
+                                              ]
+                                }
+}

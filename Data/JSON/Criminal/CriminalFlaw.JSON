@@ -1,0 +1,14 @@
+{
+    "CriminalFlaw":  {
+                         "Title":  "Criminal Flaw",
+                         "Description":  "Criminal Flaw Table",
+                         "Items":  [
+                                       "When I see something valuable, I an\u0027t think about anything but how to steal it.",
+                                       "When faced with a choice between money and my friends, I usually choose the money.",
+                                       "If there\u0027s a plan, I\u0027ll forget it. If I don\u0027t forget it, I\u0027ll ignore it.",
+                                       "I have a \"tell\" that reveals when I\u0027m lying.",
+                                       "I turn tail and run when things look bad.",
+                                       "An innocent person is in prison for a crime that I committed. I\u0027m okay with that."
+                                   ]
+                     }
+}

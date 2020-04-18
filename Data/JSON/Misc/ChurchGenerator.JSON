@@ -1,0 +1,9 @@
+{
+    "ChurchGenerator":  {
+                            "Title":  "10 - Church Generator",
+                            "Description":  "This will give you a complete religious building (not necesarilly a \"church\". It will generate the building, a very detailed clergy, the deity they worship and service frequency, notable patrons, and church rumors.",
+                            "Items":  [
+                                          "Church Generator"
+                                      ]
+                        }
+}

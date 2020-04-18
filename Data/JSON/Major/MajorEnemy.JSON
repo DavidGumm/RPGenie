@@ -1,0 +1,15 @@
+{
+    "MajorEnemy":  {
+                       "Title":  "Major Enemy",
+                       "Description":  null,
+                       "Items":  [
+                                     "A politician or political group",
+                                     "A powerful rogue/thug/assassin",
+                                     "A noble\u0027s family",
+                                     "A religious cult, sect, group, or temple",
+                                     "A powerful mage or cabal",
+                                     "A mercenary group",
+                                     "A mysterious NPC"
+                                 ]
+                   }
+}

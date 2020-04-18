@@ -1,0 +1,21 @@
+{
+    "NPCAnyRaceorGenderLastName":  {
+                                       "Title":  "NPC Any Race or Gender Last Name",
+                                       "Description":  null,
+                                       "Items":  [
+                                                     "[Random Human Female Last Name]",
+                                                     "[Random Human Female Last Name]",
+                                                     "[Gnome Clan Names]",
+                                                     "[Gnome Clan Names]",
+                                                     "[Tiefling Last Names]",
+                                                     "[Tiefling Last Names]",
+                                                     "[Elven Family Names]",
+                                                     "[Elven Family Names]",
+                                                     "[Random Half-Orc Male Name 2]",
+                                                     "[Random Half-Orc Female Name 2]",
+                                                     "[Dwarven Clan Name, Pt I][Dwarven Clan Name, Pt II]",
+                                                     "[Random Goliath Clan Name]",
+                                                     "[Halfling Family Name, Pt I][Halfling Family Name, Pt II]"
+                                                 ]
+                                   }
+}

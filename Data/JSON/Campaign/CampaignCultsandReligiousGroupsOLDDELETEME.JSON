@@ -1,0 +1,17 @@
+{
+    "CampaignCultsandReligiousGroupsOLDDELETEME":  {
+                                                       "Title":  "Campaign Cults and Religious Groups OLD DELETE ME",
+                                                       "Description":  "Cults and Religious Groups table.",
+                                                       "Items":  [
+                                                                     "a demon-worshiping cult",
+                                                                     "a devil-worshiping cult",
+                                                                     "an elemental Air cult",
+                                                                     "an elemental Earth cult",
+                                                                     "an elemental Fire cult",
+                                                                     "an elemental Water cult",
+                                                                     "worshipers of [Evil Deities]",
+                                                                     "worshipers of [Good Deities]",
+                                                                     "worshipers of [Neutral Deities]"
+                                                                 ]
+                                                   }
+}

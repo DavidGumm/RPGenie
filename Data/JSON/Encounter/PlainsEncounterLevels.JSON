@@ -1,0 +1,27 @@
+{
+    "PlainsEncounterLevels":  {
+                                  "Title":  "Plains Encounter Levels 5-10",
+                                  "Description":  null,
+                                  "Items":  [
+                                                "1 Tyrannosaurus Rex",
+                                                "1 Bulette",
+                                                "1d3 Air Elementals",
+                                                "1d4 Anklysauri",
+                                                "4d6 Gnolls lead by a Pack Lord",
+                                                "1d3 Manticores",
+                                                "2d4+1 Ogres",
+                                                "2d4 Berserkers mounted on Riding Horses",
+                                                "2d6 Centaurs",
+                                                "[Plains Encounter Levels 1-4] (Rolled from Plains Levels 1-4 table instead- it\u0027s an easy fight today)",
+                                                "2d4 Elephants",
+                                                "3d6 Tribal Warriors lead by 1d3+1 Berserkers",
+                                                "1d4 Triceratops",
+                                                "1d4+1 Hill Giants",
+                                                "3d6 Hobgoblins lead by a Hobgoblin Captain",
+                                                "1 Chimera",
+                                                "2d6+3 Bugbears lead by a Bugbear Chief",
+                                                "1d4 Gorgons",
+                                                "1 Young Gold Dragon"
+                                            ]
+                              }
+}

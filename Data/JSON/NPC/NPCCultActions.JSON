@@ -1,0 +1,13 @@
+{
+    "NPCCultActions":  {
+                           "Title":  "NPC Cult Actions",
+                           "Description":  null,
+                           "Items":  [
+                                         "stealing from",
+                                         "killing",
+                                         "trading with",
+                                         "enslaving",
+                                         "helping"
+                                     ]
+                       }
+}

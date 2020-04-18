@@ -1,0 +1,14 @@
+{
+    "FolkHeroIdeal":  {
+                          "Title":  "Folk Hero Ideal",
+                          "Description":  "Folk Hero Ideal Table",
+                          "Items":  [
+                                        "Respect. People deserve to be treated with dignity and respect. (Good)",
+                                        "Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)",
+                                        "Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)",
+                                        "Might. If I become strong, I can take what I want- what I deserve. (Evil)",
+                                        "Sincerity. There\u0027s no good in pretending to be something I\u0027m not. (Neutral)",
+                                        "Destiny. Nothing and no one can steer me away from my higher calling. (Any)"
+                                    ]
+                      }
+}

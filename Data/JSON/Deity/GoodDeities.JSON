@@ -1,0 +1,14 @@
+{
+    "GoodDeities":  {
+                        "Title":  "Good Deities",
+                        "Description":  null,
+                        "Items":  [
+                                      "Avandra",
+                                      "Bahamut",
+                                      "Corellon",
+                                      "Moradin",
+                                      "Pelor",
+                                      "Sehanine"
+                                  ]
+                    }
+}

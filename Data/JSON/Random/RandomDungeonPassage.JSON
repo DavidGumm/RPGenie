@@ -1,0 +1,19 @@
+{
+    "RandomDungeonPassage":  {
+                                 "Title":  "Random Dungeon - Passage 2",
+                                 "Description":  "Random Dungeon table.",
+                                 "Items":  [
+                                               "Continue straight 30 ft., no doors or side passages",
+                                               "Continue straight 20 ft., door to the right, then an additional 10 ft. ahead",
+                                               "Continue straight 20 ft., door to the left, then an additional 10 ft. ahead",
+                                               "Continue straight 20 ft., passage ends in a door",
+                                               "Continue straight 20 ft., side passage to the right, then an additional 10 ft. ahead",
+                                               "Continue straight 20 ft., side passage to the left, then an additional 10 ft. ahead",
+                                               "Continue straight 20 ft., comes to a dead end, 10 percent chance of a secret door",
+                                               "Continue straight 20 ft., then the passage turns left and continues 10 ft.",
+                                               "Continue straight 20 ft., then the passage turns right and continues 10 ft.",
+                                               "The passage ends at a Chamber. [Random Dungeon - Chamber]",
+                                               "The passage ends with Stairs. [Random Dungeon - Stairs]"
+                                           ]
+                             }
+}

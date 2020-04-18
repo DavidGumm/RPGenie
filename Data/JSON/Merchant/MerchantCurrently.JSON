@@ -1,0 +1,43 @@
+{
+    "MerchantCurrently":  {
+                              "Title":  "Merchant Currently",
+                              "Description":  null,
+                              "Items":  [
+                                            "waiting for customers",
+                                            "cleaning the shop",
+                                            "checking on mechandise",
+                                            "finishing a sale",
+                                            "talking to a guard",
+                                            "overseeing an apprentice",
+                                            "snoozing",
+                                            "arguing with another merchant",
+                                            "gossiping with an apprentice",
+                                            "chastizing a petty thief",
+                                            "sizing up the new patrons warily",
+                                            "telling off a beggar",
+                                            "doing accounting",
+                                            "caring for merchandise",
+                                            "talking to a customer",
+                                            "counting money",
+                                            "talking to another merchant",
+                                            "gossiping with another merchant",
+                                            "calling out to passerbys",
+                                            "heckling a passerby",
+                                            "arguing with a guard",
+                                            "on break",
+                                            "cleaning merchandise",
+                                            "listening to aonother customer tell a story",
+                                            "eavesdropping on a customer conversation",
+                                            "recounting a tale of adventure",
+                                            "looking bored",
+                                            "reading a book",
+                                            "making a new sign for the shop",
+                                            "gossiping with a customer",
+                                            "daydreaming",
+                                            "kicking a customer out of the shop",
+                                            "yelling at an apprentice",
+                                            "cleaning up broken glass",
+                                            "talking to an apprentice"
+                                        ]
+                          }
+}

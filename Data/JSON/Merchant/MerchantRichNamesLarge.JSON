@@ -1,0 +1,31 @@
+{
+    "MerchantRichNamesLarge":  {
+                                   "Title":  "Merchant Rich Names Large 2",
+                                   "Description":  null,
+                                   "Items":  [
+                                                 "Emporium",
+                                                 "Eagle",
+                                                 "Dragon",
+                                                 "Stockpile",
+                                                 "Cache",
+                                                 "Plethora",
+                                                 "Treasury",
+                                                 "Vault",
+                                                 "Storehouse",
+                                                 "Warehouse",
+                                                 "Reservoir",
+                                                 "Repository",
+                                                 "Depot",
+                                                 "Hoard",
+                                                 "Reserve",
+                                                 "Treasure",
+                                                 "Bounty",
+                                                 "Supply",
+                                                 "Resource",
+                                                 "Stock",
+                                                 "Fortune",
+                                                 "Cornucopia",
+                                                 "Surplus"
+                                             ]
+                               }
+}

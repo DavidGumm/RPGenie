@@ -1,0 +1,17 @@
+{
+    "CityOrganizations":  {
+                              "Title":  "City Organizations",
+                              "Description":  null,
+                              "Items":  [
+                                            "the Castle",
+                                            "the Nobility",
+                                            "the Justice Department",
+                                            "the Banker\u0027s Guild",
+                                            "the Stonemason\u0027s Sect",
+                                            "the King\u0027s Court",
+                                            "the City Counsel",
+                                            "the local government",
+                                            "the City Guardsman"
+                                        ]
+                          }
+}

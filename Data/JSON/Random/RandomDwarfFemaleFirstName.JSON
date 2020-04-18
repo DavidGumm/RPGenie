@@ -1,0 +1,9 @@
+{
+    "RandomDwarfFemaleFirstName":  {
+                                       "Title":  "Random Dwarf Female First Name",
+                                       "Description":  "Dwarven Name Table",
+                                       "Items":  [
+                                                     "[Dwarven First Name, Pt I][Dwarven First Name, Pt II]"
+                                                 ]
+                                   }
+}

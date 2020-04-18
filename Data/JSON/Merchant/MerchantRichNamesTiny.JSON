@@ -1,0 +1,33 @@
+{
+    "MerchantRichNamesTiny":  {
+                                  "Title":  "Merchant Rich Names Tiny 2",
+                                  "Description":  null,
+                                  "Items":  [
+                                                "Emporium",
+                                                "Eagle",
+                                                "Dragon",
+                                                "Trade",
+                                                "Cache",
+                                                "Plethora",
+                                                "Treasury",
+                                                "Vault",
+                                                "Boutique",
+                                                "Five-And-Ten",
+                                                "Outlet",
+                                                "Repository",
+                                                "Showroom",
+                                                "Hutch",
+                                                "Reserve",
+                                                "Treasure",
+                                                "Bounty",
+                                                "Supply",
+                                                "Resource",
+                                                "Stock",
+                                                "Marketplace",
+                                                "Market",
+                                                "Store",
+                                                "Shop",
+                                                "Bodega"
+                                            ]
+                              }
+}

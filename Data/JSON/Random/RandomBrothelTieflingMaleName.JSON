@@ -1,0 +1,13 @@
+{
+    "RandomBrothelTieflingMaleName":  {
+                                          "Title":  "Random Brothel Tiefling Male Name",
+                                          "Description":  "Tiefling Name Table",
+                                          "Items":  [
+                                                        "[Tiefling Male First Names]",
+                                                        "[Tiefling Male First Names] \"[Brothel Prostitute Nickname]\" [Tiefling Last Names]",
+                                                        "[Tiefling Male First Names] \"[Brothel Prostitute Nickname]\" [Random Human Family Last Name 2]",
+                                                        "[Random Human Male First Name] \"[Brothel Prostitute Nickname]\" [Tiefling Last Names]",
+                                                        "[Random Human Male First Name] \"[Brothel Prostitute Nickname]\" [Random Human Family Last Name 2]"
+                                                    ]
+                                      }
+}

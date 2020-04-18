@@ -1,0 +1,12 @@
+{
+    "TownNameSuffix":  {
+                           "Title":  "Town Name Suffix",
+                           "Description":  null,
+                           "Items":  [
+                                         "East",
+                                         "West",
+                                         "North",
+                                         "South"
+                                     ]
+                       }
+}

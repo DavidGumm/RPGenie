@@ -1,0 +1,15 @@
+{
+    "NPCHome":  {
+                    "Title":  "NPC Home",
+                    "Description":  null,
+                    "Items":  [
+                                  "A small mountain village",
+                                  "A fishing town",
+                                  "The nearest city",
+                                  "An underground settlement",
+                                  "A medium sized settlement in the forrest",
+                                  "A nomadic wagon train in the plainslands",
+                                  "A castle high in the mountains"
+                              ]
+                }
+}

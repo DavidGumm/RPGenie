@@ -1,0 +1,15 @@
+{
+    "NPCReligiousEvent":  {
+                              "Title":  "NPC Religious Event",
+                              "Description":  null,
+                              "Items":  [
+                                            "An avatar of a god issues sanctions",
+                                            "Open warfare against temple enemies is now public knowledge",
+                                            "New edict/sanction is announced, causing a radical shift in the local population\u0027s mood",
+                                            "An expedition to the Heathen Lands has been announced",
+                                            "Temple leaders have declared a peace agreement and a Summit of Faith is announced.",
+                                            "An artifact or holy relic has been found/destroyed and a Call to the Faithful has gone out",
+                                            "An avatar of a god appears and denounces/blesses the faithful and punishes/rewards with a bane/boon"
+                                        ]
+                          }
+}
