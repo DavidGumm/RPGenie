@@ -1,0 +1,27 @@
+{
+  "Title": "NPC Personal Information",
+  "Description": null,
+  "Items": [
+    "A secret that leads to Major Boon",
+    "MAJOR BOON: [Major Boon]",
+    null,
+    "Information about a family Emergency",
+    "EMERGENCY: [NPC Emergency]",
+    null,
+    "A rumor about the PC as told by a friend or Enemy (Major or Minor)",
+    "MAJOR ENEMY: [Major Enemy]",
+    "MINOR ENEMY: [Minor Enemy]",
+    "Information that confirms a suspicion held by the PC or the Party",
+    null,
+    null,
+    "A Minor Warning that concerns the PC or the Party",
+    "WARNING: [NPC Warning]",
+    null,
+    "Knowledge about information the PC or Party has been investigating",
+    null,
+    null,
+    "Knowledge of a Major Warning to the PC",
+    "WARNING: [NPC Warning]",
+    null
+  ]
+}

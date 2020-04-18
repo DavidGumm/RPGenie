@@ -1,0 +1,27 @@
+{
+  "Title": "Road Suffix 6",
+  "Description": null,
+  "Items": [
+    "Street",
+    "Road",
+    "Avenue",
+    "Boulevard",
+    "Way",
+    "Lane",
+    "Path",
+    "Parkway",
+    "Alley",
+    "Grove",
+    "Court",
+    "Bend",
+    "Heights",
+    "Landing",
+    "Passage",
+    "Passway",
+    "Place",
+    "Trafficway",
+    "Trail",
+    "Union",
+    "Vista"
+  ]
+}

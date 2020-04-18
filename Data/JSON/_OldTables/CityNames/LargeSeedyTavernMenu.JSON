@@ -1,0 +1,14 @@
+{
+  "Title": "Large Seedy Tavern Menu",
+  "Description": null,
+  "Items": [
+    "ALCOHOL MENU: [1d6+2x][Tavern Drinks Menu]",
+    "FOOD MENU: [1d8+2x][Tavern Food Menu]",
+    "SPECIAL TODAY: [Tavern Specials Menu]",
+    "NO ROOMS AVAILABLE",
+    "ALCOHOL MENU: [1d6+2x][Tavern Drinks Menu]",
+    "FOOD MENU: [1d8+2x][Tavern Food Menu]",
+    "SPECIAL TODAY: [Tavern Specials Menu]",
+    "ROOMS: [Large Tavern Inn Rooms Seedy]"
+  ]
+}

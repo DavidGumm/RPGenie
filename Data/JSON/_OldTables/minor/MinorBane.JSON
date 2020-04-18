@@ -1,0 +1,17 @@
+{
+  "Title": "Minor Bane",
+  "Description": null,
+  "Items": [
+    "Uses disease or pestilence as a tactic",
+    "Will attempt to destroy some buildings",
+    "Creates a new enemy (Major or Minor) of the PC or Party that is now actively opposing them",
+    "<p>-</p>Major Enemy: [Major Enemy]",
+    "<p>-</p>Minor Enemy: [Minor Enemy]",
+    "Will ensure the loss of items of value for the party",
+    "Activates a curse on a PC or the Party",
+    "<p>-</p>[NPC Cursed]",
+    "Will ensure that people will be injured",
+    "Makes the party haunted",
+    "<p>-</p>[NPC Haunted]"
+  ]
+}

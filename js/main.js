@@ -5,20 +5,6 @@ const RPGenie = function (seed) {
     return Math.floor(this.seed() * Math.floor(max));
   };
 
-  const citySize = [
-    { Name: "Homestead", size: { min: 1, max: 5 } },
-    { Name: "Hamlet", size: { min: 5, max: 50 } },
-    { Name: "Village", size: { min: 50, max: 150 } },
-    { Name: "Town", size: { min: 150, max: 10000 } },
-    { Name: "Large town", size: { min: 10000, max: 100000 } },
-    { Name: "Small City", size: { min: 100000, max: 150000 } },
-    { Name: "Medium city", size: { min: 150000, max: 300000 } },
-    { Name: "Large city", size: { min: 300000, max: 1000000 } },
-    { Name: "Metropolis", size: { min: 1000000, max: 3000000 } },
-    { Name: "Conurbation", size: { min: 3000000, max: 10000000 } },
-    { Name: "Megalopolis", size: { min: 10000000, max: 9999999999 } },
-  ];
-
   RPGenie.prototype.City = function () {
     this.Name = "CITYNAME";
     this.Type = "CityType";
@@ -113,18 +99,18 @@ const RPGenie = function (seed) {
     let names = [];
     switch (building.subtype) {
       case "Brothel":
-        names = database[building.subtype].BrothelName.Items;
+        names = database._OldTables[building.subtype].BrothelName.Items;
         break;
       case "Tavern":
       case "Inn":
       case "Restaurant":
-        names = database["Tavern"].TavernSeedyNames.Items;
+        names = database._OldTables["Tavern"].TavernSeedyNames.Items;
         break;
       case "Guild":
-        names = database[building.subtype].GuildGenerator.Items;
+        names = database._OldTables[building.subtype].GuildGenerator.Items;
         break;
       case "Religious":
-        names = database["Religion"].ReligiousBuildingType.Items;
+        names = database._OldTables["Religion"].ReligiousBuildingType.Items;
         break;
       default:
         names = [""];
@@ -135,11 +121,11 @@ const RPGenie = function (seed) {
   };
 
   RPGenie.prototype.citySize = (city) => {
-    let citySizes = citySize.filter((item, index) => index < 8).reverse();
+    let citySizes = database.settings.CitySize.reverse();
 
     let sizes = [];
     citySizes.forEach((item) => {
-      let rounds = Math.round(Math.pow(5, 2.1));
+      let rounds = item.Probability * 1000;
       for (let index = 0; index < rounds; index++) {
         sizes.push(item);
       }

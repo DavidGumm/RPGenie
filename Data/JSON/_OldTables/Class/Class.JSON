@@ -1,0 +1,30 @@
+{
+  "Title": "Class",
+  "Description": "A subtable of the Character Generator table, this table will determine character's base class.",
+  "Items": [
+    "Barbarian",
+    null,
+    "Bard",
+    null,
+    "Cleric",
+    null,
+    "Druid",
+    null,
+    "Fighter",
+    null,
+    "Monk",
+    null,
+    "Paladin",
+    null,
+    "Ranger",
+    null,
+    "Rogue",
+    null,
+    "Sorcerer",
+    null,
+    "Warlock",
+    null,
+    "Wizard",
+    null
+  ]
+}

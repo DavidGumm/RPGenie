@@ -1,0 +1,11 @@
+{
+  "Title": "City Merchant Generator",
+  "Description": "Super-Detailed Merchants!!!",
+  "Items": [
+    "Tiny Poor Merchant",
+    "Medium Poor Merchant",
+    "Medium Rich Merchant",
+    "Large Rich Merchant",
+    "Tiny Rich Merchant"
+  ]
+}

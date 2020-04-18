@@ -1,0 +1,15 @@
+{
+  "Title": "Casual NPC Generator TEST MAYBE USE WITH STORY TEMPLATES",
+  "Description": null,
+  "Items": [
+    "This is an NPC [Random Human]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Dwarf]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Halfling]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Elf]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Gnome]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Half-Breed]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Dragonborn]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Aasimar]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>",
+    "This is an NPC [Random Tiefling]<p> </p> They are [Random Trait]<p> </p> They are [Random Attitude] <p><u>Voice cue:</u> [Random Voice]</p>"
+  ]
+}

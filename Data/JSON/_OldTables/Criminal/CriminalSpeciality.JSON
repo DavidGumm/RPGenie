@@ -1,0 +1,14 @@
+{
+  "Title": "Criminal Speciality",
+  "Description": "Criminal Speciality Table",
+  "Items": [
+    "Blackmailer",
+    "Burglar",
+    "Enforcer",
+    "Fence",
+    "Highway robber",
+    "Hired killer",
+    "Pickpocket",
+    "Smuggler"
+  ]
+}

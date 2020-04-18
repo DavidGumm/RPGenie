@@ -1,0 +1,8 @@
+{
+  "Title": "Village Human Generator",
+  "Description": null,
+  "Items": [
+    "[Random Human Male First Name] [Random Human Male Last Name], a male Human",
+    "[Random Human Female First Name] [Random Human Female Last Name], a female Human"
+  ]
+}

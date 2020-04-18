@@ -1,0 +1,14 @@
+{
+  "Title": "Soldier Specialty",
+  "Description": "Soldier Specialty Table",
+  "Items": [
+    "Officer",
+    "Scout",
+    "Infantry",
+    "Cavalry",
+    "Healer",
+    "Quartermaster",
+    "Standard bearer",
+    "Support staff (cook, blacksmith, or the like)"
+  ]
+}

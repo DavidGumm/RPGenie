@@ -1,0 +1,12 @@
+{
+  "Title": "NPC Cult Motivations",
+  "Description": null,
+  "Items": [
+    "return",
+    "exile",
+    "free",
+    "enslave",
+    "destroy",
+    "rebirth"
+  ]
+}

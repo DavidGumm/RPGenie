@@ -1,0 +1,20 @@
+{
+  "Title": "Major Boon",
+  "Description": null,
+  "Items": [
+    "Divine intervention grants a Treasure.",
+    "<p>-</p>The treasure will be [NPC Treasure Info].",
+    "True Knowledge of a Treasure location is obtained.",
+    "<p>-</p>The treasure will be [NPC Treasure Info].",
+    "Large amount of monetary wealth is granted",
+    null,
+    "An existing skill or knowledge is improved (+1) or a new skill is obtained",
+    null,
+    "A personal relationship is improved to 100%",
+    null,
+    "A major property is awarded or an improvement to a major property is granted",
+    null,
+    "PC or Party is pointed towards an Artifact",
+    "<p>-</p>The artifact will be [NPC Artifact Info]"
+  ]
+}

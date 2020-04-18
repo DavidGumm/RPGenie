@@ -19,9 +19,17 @@ namespace dataparser
         public static bool __verbose { get; set; }
         public static bool __parseJson { get; set; }
         public static bool __parseXml { get; set; }
+        public static Newtonsoft.Json.Formatting __compressJson { get; set; }
+        public static Newtonsoft.Json.Formatting __compressXlm { get; set; }
 
         public static void setArguments(string[] args) 
-        { 
+        {
+            __verbose = false;
+            __parseJson = false;
+            __parseXml = false;
+            __compressJson = Newtonsoft.Json.Formatting.Indented;
+            __compressXlm = Newtonsoft.Json.Formatting.Indented;
+
             foreach (string arg in args)
             {
                 switch (arg.Substring(0, 2).ToLower())
@@ -38,8 +46,14 @@ namespace dataparser
                     case "-parse xml":
                         __parseXml = true;
                         break;
+                   case "-compress json":
+                        __compressJson = Newtonsoft.Json.Formatting.None;
+                        break;
+                   case "-compress xlm":
+                        __compressXlm = Newtonsoft.Json.Formatting.None;
+                        break;
                     default:
-                        // do other stuff...
+                        // do the default stuff...
                         break;
                 }
             }
@@ -47,7 +61,7 @@ namespace dataparser
 
         static void Main(string[] args)
         {
-            setArguments(args);
+            setArguments(new []{"-parse json"});
             var stopwatch = new Stopwatch();
             stopwatch.Start();
             Console.WriteLine("");
@@ -62,7 +76,6 @@ namespace dataparser
             {
                 parseJSON();
             }
-
             parseJSON();
 
             stopwatch.Start();
@@ -101,12 +114,10 @@ namespace dataparser
                 table = JToken.Parse(System.IO.File.ReadAllText(f));
                 var tableName = table.Children<JProperty>().Select(P => P.Name).FirstOrDefault();
 
-                //var stringData = "";
-
                 if (tableName == fileName)
                 {
                     table = JToken.Parse(Newtonsoft.Json.JsonConvert.SerializeObject(table[tableName]));
-                    System.IO.File.WriteAllText(f, table.ToString());
+                    System.IO.File.WriteAllText(f, table.ToString(__compressJson));
                 }
 
                 Database = setDatabase(Database, path, table, 0, 64);

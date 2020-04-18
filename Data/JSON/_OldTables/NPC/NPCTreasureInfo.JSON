@@ -1,0 +1,20 @@
+{
+  "Title": "NPC Treasure Info",
+  "Description": null,
+  "Items": [
+    "Potions",
+    null,
+    "Gems",
+    null,
+    "Weapons or armor",
+    null,
+    "Coins",
+    null,
+    "Wands, Rods, and Staves",
+    null,
+    "Clothing",
+    null,
+    "Artifact",
+    "<p>-</p>[NPC Artifact Info]"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-    "RandomDwarfMaleFirstName":  {
-                                     "Title":  "Random Dwarf Male First Name",
-                                     "Description":  "Dwarven Name Table",
-                                     "Items":  [
-                                                   "[Dwarven First Name, Pt I][Dwarven First Name, Pt II]"
-                                               ]
-                                 }
-}

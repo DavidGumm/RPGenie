@@ -1,0 +1,13 @@
+{
+  "Title": "Religious Building Type",
+  "Description": null,
+  "Items": [
+    "church",
+    "temple",
+    "chapel",
+    "cathedral",
+    "sanctuary",
+    "sacred place",
+    "abbey"
+  ]
+}

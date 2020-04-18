@@ -1,0 +1,18 @@
+{
+  "Title": "Encounter Non-Combat Non-Specific Terrain",
+  "Description": null,
+  "Items": [
+    "[Encounter Omen]",
+    "A small troop of Bards encounters you on their journey. They play for you a song of [Encounter Bards]",
+    "A merchant crosses your path. [Encounter Merchants]",
+    "The party encounters a [Encounter Religion]",
+    "The party encounters a Trap! It is a DC[1d9+10] perception check to spot, and it is: [Encounter Trap]",
+    "The party crosses paths with an elderly [Sex] [Race Labels Good Races]. They pose a riddle: [Encounter Old Man Riddles]. They will only accept one try at the answer, and upon completion they wander away refusing to interact further. If they are touched, it is discovered they are incorporeal (like a ghost)",
+    "[Encounter Non-Combat Misc]",
+    "The party happens upon some fellow travellers today it seems. They are [Encounter Fellow Travellers]",
+    "[Encounter Non-Combat Misc 2]",
+    "[Encounter Travel Complication]",
+    "[Encounter Terrain Feature]",
+    "Nothing happens of note."
+  ]
+}

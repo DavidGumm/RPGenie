@@ -1,1 +1,52 @@
-{}
+{
+  "Data": true,
+  "CitySize": [
+    { "Name": "Homestead", "size": { "min": 1, "max": 5 }, "Probability": 2.0 },
+    { "Name": "Hamlet", "size": { "min": 5, "max": 50 }, "Probability": 15.0 },
+    {
+      "Name": "Village",
+      "size": { "min": 50, "max": 150 },
+      "Probability": 50.0
+    },
+    {
+      "Name": "Town",
+      "size": { "min": 150, "max": 10000 },
+      "Probability": 30.0
+    },
+    {
+      "Name": "Large town",
+      "size": { "min": 10000, "max": 100000 },
+      "Probability": 2.0
+    },
+    {
+      "Name": "Small City",
+      "size": { "min": 100000, "max": 150000 },
+      "Probability": 0.899
+    },
+    {
+      "Name": "Medium city",
+      "size": { "min": 150000, "max": 300000 },
+      "Probability": 0.1
+    },
+    {
+      "Name": "Large city",
+      "size": { "min": 300000, "max": 1000000 },
+      "Probability": 0.001
+    },
+    {
+      "Name": "Metropolis",
+      "size": { "min": 1000000, "max": 3000000 },
+      "Probability": 0.0
+    },
+    {
+      "Name": "Conurbation",
+      "size": { "min": 3000000, "max": 10000000 },
+      "Probability": 0.0
+    },
+    {
+      "Name": "Megalopolis",
+      "size": { "min": 10000000, "max": 9999999999 },
+      "Probability": 0.0
+    }
+  ]
+}

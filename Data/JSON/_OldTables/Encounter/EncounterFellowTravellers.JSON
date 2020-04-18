@@ -1,0 +1,18 @@
+{
+  "Title": "Encounter Fellow Travellers",
+  "Description": null,
+  "Items": [
+    "A troupe of wandering troubadours and bards who are travelling the land performing plays and looking for stories and legends to add to their repertoire. If the PCs make friendly contact with them there is a 50% chance that the troupe will have heard a legend about a [NPC Challenging Monster] living [Campaign Quest Location 1] [Campaign Quest Color Nouns] [Campaign Quest Location 2].",
+    "A woodsman returning from a nearby forest to his home in a local village, there is a 2-in-6 chance that he can point the party in the direction of healing herbs.",
+    "A small group of dodgy, scruffy looking geezers pushing a barely working wheelbarrow piled high with various ramshackle goods and items. There is a 50% chance that the PCs will find any basic equipment they want if they search the cart and they will get it half-price. However there is a 50% chance the first time that the item is used that it breaks due to poor construction or lack of care, there is also a 1-in-6 chance any item purchased is stolen.",
+    "A small group of children fishing in a creek, they have caught 1d4 rations worth of fish that they maybe willing to share with the PCs if they ingratiate themselves (as determined by the GM).",
+    "A group of merchants that have been beset by hostile forces whilst moving along a local trade route, when they meet the PCs they are fleeing with their enemies close behind them. If the PCs help the merchants then they will receive a 25% discount on any wares that they purchase from them (see merchant generators).",
+    "A young couple from a nearby village engaged in a secret tryst, if approached by the PCs they are embarrassed and worried about what their parents will say. In return for the PCs silence they will be able to give them the low-down on important NPCs in their home village. (see village generator)",
+    "A wealthy trade caravan of merchants and exotic spice dealers with an entourage of guards and mercenaries to protect them. There is a 4-in-6 chance that the caravan will have any basic equipment that the PC requests, and a 2-in-6 chance that the caravan has any exotic items they request (final say on this rests with the GM), however any exotic items will cost 25% more than the listed price due to their fine quality of workmanship.",
+    "A farmer returning from his fields with a barrow full of fresh produce (1d6 rations worth), if the PCs are friendly then he may be willing to barter items for his produce (although he has little use for coin).",
+    "A local farmer is taking their [Farm Animal]s to a nearby market, and they are accompanied by [1d6+1] young girls and boys who help them manage the herd. The farmer will not be interested in selling his animals?since he knows he'll get a better price at market?but can supply the PCs with all the rumours from nearby villages (see village generator).",
+    "A group of local children mock-fighting each other with sticks, wearing old pans and bits of bark as make-shift armour. If the PCs are friendly to them then they'll be able to point them in the direction of the nearest village. (see village generator)",
+    "A group of [1d6+1] woodsmen and rangers who are on the trail of a [NPC Challenging Monster] that has been menacing the nearby settlements. Some of their number were killed in a recent encounter with the beast, and they will happily share any rewards and glory with PCs who help them bring the monster down.",
+    "A noble's caravan, it has become stuck in the mud and one of it's wheels has broken. If the PCs are able to repair the wagon or escort the nobles to their destination they will receive a reward of [2d6x10] gold pieces."
+  ]
+}

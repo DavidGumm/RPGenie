@@ -1,0 +1,18 @@
+{
+  "Title": "Race Labels Good Races",
+  "Description": "A subtable of the Character Generator table, this table will determine character race, including subrace. It includes the additional races from the Elemental Evil Companion (EEC).",
+  "Items": [
+    "Mountain Dwarf",
+    "Hill Dwarf",
+    "High Elf",
+    "Wood Elf",
+    "Half-Elf",
+    "Halfling",
+    "Human",
+    "Dragonborn",
+    "Forest Gnome",
+    "Rock Gnome",
+    "Half-Orc",
+    "Tiefling"
+  ]
+}

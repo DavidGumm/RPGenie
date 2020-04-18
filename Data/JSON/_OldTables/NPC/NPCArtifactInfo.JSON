@@ -1,0 +1,13 @@
+{
+  "Title": "NPC Artifact Info",
+  "Description": null,
+  "Items": [
+    "A magical item (Single object (95%), or part of a Set (95% and up)) RESULT: [1d100]%",
+    "Jewelry, Chest, Map, Bucket, Lantern or Jar (d6) RESULT: [1d6]",
+    "A piece of Armor (Single piece (90%), or part of a Set (91% and up)) RESULT: [1d100]%",
+    "Missile or Melee Weapon (Common (60% and below), Uncommon (61% to 94%), Rare (95% and up) RESULT: [1d100]%",
+    "Rod, Staff, Wand, Sceptre, Crown or Gemstone (d6) RESULT: [1d6]",
+    "Statue, Painting, Instrument, Sheet Music, Article of Clothing (d6) RESULT: [1d6]",
+    "Replacement Body Part (75%) or Organ (76% and up) RESULT: [1d100]%"
+  ]
+}

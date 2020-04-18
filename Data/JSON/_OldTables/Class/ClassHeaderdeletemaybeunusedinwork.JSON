@@ -1,0 +1,30 @@
+{
+  "Title": "Class Header delete maybe unused in work",
+  "Description": "A subtable of the Character Generator table, this table will determine character's base class.",
+  "Items": [
+    "A Barbarian",
+    "Barbarian Reference Link",
+    "<h>A Bard</h><p>Bard Reference Link:</p>",
+    null,
+    "<h>A Cleric</h><p>Cleric Reference Link:</p>",
+    null,
+    "<h>A Druid</h><p>Druid Reference Link:</p>",
+    null,
+    "<h>A Fighter</h><p>Fighter Reference Link:</p>",
+    null,
+    "<h>A Monk</h><p>Monk Reference Link:</p>",
+    null,
+    "<h>A Paladin</h><p>Paladin Reference Link:</p>",
+    null,
+    "<h>A Ranger</h><p>Ranger Reference Link:</p>",
+    null,
+    "<h>A Rogue</h><p>Rogue Reference Link:</p>",
+    null,
+    "<h>A Sorcerer</h><p>Sorcerer Reference Link:</p>",
+    null,
+    "<h>A Warlock</h><p>Warlock Reference Link:</p>",
+    null,
+    "<h>A Wizard</h><p>Wizard Reference Link:</p>",
+    null
+  ]
+}

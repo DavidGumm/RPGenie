@@ -1,0 +1,27 @@
+{
+  "Title": "NPC Reactions to PC Talking",
+  "Description": null,
+  "Items": [
+    "<b>Hostile, maybe nemesis-level. Might pursue PC until dead.</b>",
+    "<p>-</p>GIVES MAJOR BANE: [Major Bane]",
+    null,
+    "<b>Unhappy.</b>",
+    "<p>-</p>GIVES MINOR BANE: [Minor Bane]",
+    null,
+    "<b>Disgruntled.</b>",
+    "<p>-</p>GIVES FALSE RUMOR: [Tavern Notable Rumors]",
+    null,
+    "<b>\"Meh\" or Annoyed Attitude.</b>",
+    "<p>-</p>GIVES EITHER PERSONAL INFO: [NPC Personal Information]",
+    "<p>-</p>OR LOCAL INFO: [NPC Local Information]",
+    "<b>Pleased.</b>",
+    "<p>-</p>SHARES TRUE RUMOR: [Tavern Notable Rumors]",
+    null,
+    "<b>Happy.</b>",
+    "<p>-</p>GIVES MINOR BOON: [Minor Boon]",
+    null,
+    "<b>Friendly - an ally. Might protect PC until dead.</b>",
+    "<p>-</p>GIVES MAJOR BOON: [Major Boon]",
+    null
+  ]
+}

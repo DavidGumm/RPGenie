@@ -1,0 +1,19 @@
+{
+  "Title": "Encounter Hostile",
+  "Description": null,
+  "Items": [
+    "A group of [1d6+1] bandits, lying concealed in wait to waylay travellers on the road.",
+    "A wagon train of [2d6] Dwarves who are hostile to non-Dwarves (seeming merely irritable to their own kind), they have little interest in talking because they are carrying the body of a slain hero home. Attempts to delay or question them will be met with hostility and possibly an attack.",
+    "A group of [1d6+1] thieves who pose as traders or travelling bards to ingratiate themselves with the PCs but?given a chance?they will incapacitate and rob them, leaving them lying by the roadside bereft of possessions.",
+    "A group of [2d6] goblins who are starving, they are looking to scavenge from a local settlement, but are not above attacking an enemy they believe that they can defeat.",
+    "A great beast that has been rampaging through the local area, menacing villages and causing a hazard to travel. The beast is a huge/dire version of a normal animal as appropriate for the terrain type, how the animal got so big and why it is taking out it's agression on the locals is up to the GM.",
+    "A hostile group of [2d6] Elves who claim guardianship of a nearby natural feature, they take a dim view of outsiders, viewing them as despoilers and corruptors of nature.",
+    "A huge troll that makes it's lair under a local bridge, it charges all those who pass [1d6] gold pieces as a toll, attacking those who refuse.",
+    "A mob of torch-wielding people from a local settlement, they are chasing a mutant, a suspected witch or just someone they don't like very much with the intent of burning them alive for some crime real or imagined (as determined by the GM).",
+    "A brutish, inbred Ogre who is part of a tribe inhabitting the hills or mountains nearby, previously they have herded goats and caused little trouble, but a strange blight has killed their herds and now they take to raiding the nearby lowland settlements for food and other items.",
+    "A group of [2d6] orcs lurking in nearby terrain, they are preparing to attack a nearby settlement once the sun goes down.",
+    "A small pack of [1d6+2] dogs that escaped from their homes and have gone feral.",
+    "A group of [2d6] evil humanoids who are on a mission for their dark master, if the PCs defeat them then they will gain XP and random loot as normal. This is good opportunity for GMs to drop in items that hint at the identity of the humanoid's master and can serve as a way to introduce a new villainous mastermind to a campaign.",
+    "No encounter at this time."
+  ]
+}

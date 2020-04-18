@@ -1,0 +1,27 @@
+{
+  "Title": "NPC Area or Site Status",
+  "Description": null,
+  "Items": [
+    "Faithtouched or Weavetouched",
+    "<p>-</p>FAITHTOUCHED: [NPC Faithtouched]",
+    "<p>-</p>WEAVETOUCHED: [NPC Weavetouched]",
+    "Home to an evil-aligned faction",
+    "<p>-</p>FACTION TYPE: [NPC Faction Type]",
+    null,
+    "Home to [Quest Encounter Mob Type]Nearby there is a Minor Treasure",
+    "<p>-</p>TREASURE: [NPC Treasure Info]",
+    null,
+    "a benign area with a small NPC population or is abandoned. There is no treasure",
+    null,
+    null,
+    "Home to a good-aligned faction",
+    "<p>-</p>FACTION TYPE: [NPC Faction Type]",
+    null,
+    "Home to a [NPC Challenging Monster]. Nearby there is a Major Treasure",
+    "<p>-</p>TREASURE: [NPC Treasure Info]",
+    null,
+    "Haunted or Cursed",
+    "<p>-</p>HAUNTED: [NPC Haunted]",
+    "<p>-</p>CURSED: [NPC Cursed]"
+  ]
+}
