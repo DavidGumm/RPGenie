@@ -1,4 +1,4 @@
-const Ajax = function (type, uri, success) {
+const Ajax = function (type, uri, success, params) {
   const xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -6,5 +6,5 @@ const Ajax = function (type, uri, success) {
     }
   };
   xhttp.open(type, uri, true);
-  xhttp.send();
+  xhttp.send(params);
 };
